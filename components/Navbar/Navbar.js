@@ -7,18 +7,19 @@ import { useWindowSize } from "../../hooks/useWindowDimensions.js";
 
 export default function Navbar() {
   const [clientWindowHeight, setClientWindowHeight] = useState("");
-
+  const [width2, setWidth2] = useState("");
   const handleScroll = () => {
     setClientWindowHeight(window.scrollY);
   };
   const { width, height } = useWindowSize();
 
   useEffect(() => {
+    setWidth2(window.innerWidth);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   });
 
-  return width > 1000 ? (
+  return width2 > 1000 ? (
     <Desktop style={style} logo={logo} width={clientWindowHeight} />
   ) : (
     <Mobile style={style} logo={logo} width={clientWindowHeight} />
