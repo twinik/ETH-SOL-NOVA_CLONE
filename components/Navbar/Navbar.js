@@ -19,7 +19,9 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   });
 
-  return width2 > 1000 ? (
+  return !width ? (
+    " "
+  ) : width > 1000 ? (
     <Desktop style={style} logo={logo} width={clientWindowHeight} />
   ) : (
     <Mobile style={style} logo={logo} width={clientWindowHeight} />
