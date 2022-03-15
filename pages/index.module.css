@@ -1,12 +1,6 @@
 .container {
-  background: rgb(97, 72, 223);
-  background: linear-gradient(
-    18deg,
-    rgba(97, 72, 223, 1) 0%,
-    rgba(90, 65, 217, 1) 37%,
-    rgba(75, 55, 193, 1) 65%,
-    rgba(80, 58, 191, 1) 100%
-  );
+  background: #422eb1;
+  
   color: white;
   height: 100vh;
 }
