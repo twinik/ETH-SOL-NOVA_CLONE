@@ -51,8 +51,8 @@ export default function index({ data = [] }) {
         {data.map(({ image, description }, index) => (
           <SwiperSlide key={index}>
             <Image
-              width={350}
-              height={170}
+              width={370}
+              height={190}
               loading="eager"
               objectFit="cover"
               layout="responsive"

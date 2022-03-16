@@ -1,0 +1,19 @@
+.CardContainer {
+}
+
+.CardValue {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: #6454da;
+  font-size: 1.8em;
+  padding: .8rem .5rem;
+  font-weight: 700;
+}
+.CardDetail {
+    background-color: #160b6d;
+    font-size: .9em;
+    padding: .8rem 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: rgba(248, 248, 248, 0.767);
+}

@@ -68,8 +68,7 @@ export const features = [
   {
     icon: faCircleCheck,
     title: "NFT Holder Verification",
-    description:
-      "Discord Bots to Verify Your Holders - Making DAOs Easy",
+    description: "Discord Bots to Verify Your Holders - Making DAOs Easy",
     url: {
       text: "Learn More",
       url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -118,8 +117,7 @@ export const features = [
   {
     icon: faCcVisa,
     title: "Mint by Credit Card",
-    description:
-      "Easier onramp for your community by paying via Credit Card",
+    description: "Easier onramp for your community by paying via Credit Card",
     url: {
       text: "Coming Soon",
       url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -134,8 +132,7 @@ export const features = [
   {
     icon: faPhotoVideo,
     title: "Multimedia Support",
-    description:
-      "Generative series, 3D, video, gaming asset support.",
+    description: "Generative series, 3D, video, gaming asset support.",
     url: {
       text: "Contact Us",
       url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -160,5 +157,24 @@ export const features = [
       text: "Launch with us",
       url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     },
+  },
+];
+
+export const Exclusive = [
+  {
+    detail: "Nfts Minted",
+    value: "342,191+",
+  },
+  {
+    detail: "Projects Powered",
+    value: "1,200+",
+  },
+  {
+    detail: "SOL Processed & Tracked",
+    value: "229,010+",
+  },
+  {
+    detail: "Security Breaches",
+    value: "0",
   },
 ];
