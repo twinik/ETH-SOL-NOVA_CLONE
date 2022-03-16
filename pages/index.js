@@ -2,12 +2,13 @@ import Head from "next/head";
 import styles from "./index.module.css";
 import Navbar from "../components/Navbar/Navbar";
 import React, { useState, useEffect } from "react";
-import { Intro } from "../components/Landing";
+import { Intro,FeatureProject} from "../components/Landing";
 import Particles from "../components/Particles";
 export default function Home() {
   return (
     <div>
       <Intro />
+      <FeatureProject/>
       <style jsx global>{`
         html,
         body {

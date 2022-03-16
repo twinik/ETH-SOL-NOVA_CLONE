@@ -1,9 +1,13 @@
 import React from "react";
-import style from "./ButtonRounded.module.css";
+import style from "./ButtonRoundedSecondary.module.css";
 
-export default function ButtonRounded({ text }) {
+export default function ButtonRoundedSecondary({ text, style: btnStyle, onClick }) {
   return (
-    <button className={style["button-rounded"]} onClick={() => alert("galo")}>
+    <button
+      className={style["button-rounded"]}
+      style={{ ...btnStyle }}
+      onClick={() => alert("galo")}
+    >
       {text}
     </button>
   );
