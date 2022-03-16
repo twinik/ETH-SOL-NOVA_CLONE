@@ -7,7 +7,6 @@ import Particles from "../components/Particles";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Particles/>
       <Intro/>
       <style jsx global>{`
         html,
