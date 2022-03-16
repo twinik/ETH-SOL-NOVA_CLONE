@@ -190,7 +190,7 @@ export const Nfts = [
   {
     detail: "Sold on Solanart for 0.15 SOL",
     name: "Neon Punks #2062",
-    image: urlImage + "/Nft2.png",
+    image: urlImage + "/NFt2.png",
   },
   {
     detail: "Sold on Magic Eden for 0.15 SOL ",
