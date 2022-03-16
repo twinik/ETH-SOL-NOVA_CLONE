@@ -9,6 +9,7 @@ export default function Navbar() {
   const [clientWindowHeight, setClientWindowHeight] = useState("");
   const [width2, setWidth2] = useState("");
   const handleScroll = () => {
+    console.log(window.scrollY)
     setClientWindowHeight(window.scrollY);
   };
   const { width, height } = useWindowSize();
@@ -22,7 +23,7 @@ export default function Navbar() {
   return (
     <div
       className={
-        clientWindowHeight <= 10
+        clientWindowHeight <= 0
           ? style["nav-containerWrap"]
           : `${style["nav-containerWrap"]} ${style["active"]}`
       }
