@@ -11,6 +11,7 @@ export default function index({ name, detail, image }) {
         objectFit="cover"
         layout="responsive"
         src={image}
+        placeholder="blur"
         className={ownStyles["image"]}
       />
       <p className={ownStyles["card-name"]}>{name}</p>
