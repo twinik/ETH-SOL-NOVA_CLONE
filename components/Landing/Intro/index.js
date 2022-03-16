@@ -4,7 +4,7 @@ import { MainTitle } from "../../Titles";
 import { MainParagraph } from "../../Paragraphs";
 import { ButtonRoundedSecondary } from "../../Buttons";
 import Swiper from "../../Swiper";
-import {ContainerSection} from "../../Containers";
+import { ContainerSection } from "../../Containers";
 
 export default function index() {
   const baseAssetsUrl = "/assets";
@@ -37,7 +37,7 @@ export default function index() {
 
   return (
     <ContainerSection className={ownStyles["Intro-container"]}>
-      <MainTitle text={"Empowering NFT Creators"} />
+      <MainTitle text={"Empowering NFT Creators"}  />
       <MainParagraph
         style={{ marginTop: "0" }}
         content={`Nova Launch - the Premier Launchpad & Comprehensive Platform for
