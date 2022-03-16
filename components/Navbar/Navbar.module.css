@@ -54,7 +54,10 @@
 
 @media screen and (min-width: 768px) {
   .nav-container {
-    padding: 1rem 2.4rem;
+    padding: 0rem 2.4rem;
+  }
+  .active .nav-container{
+    padding: 0rem 1rem;
   }
 }
 
@@ -64,6 +67,9 @@
     width: 100%;
     margin: auto;
     padding: 2rem 0;
+  }
+  .active .nav-container{
+    padding: 1rem 0rem;
   }
 }
 

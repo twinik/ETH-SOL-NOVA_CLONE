@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <div
       className={
-        clientWindowHeight < 10
+        clientWindowHeight <= 10
           ? style["nav-containerWrap"]
           : `${style["nav-containerWrap"]} ${style["active"]}`
       }
