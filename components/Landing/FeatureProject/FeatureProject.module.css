@@ -1,0 +1,79 @@
+.Feature-title {
+  text-align: center;
+  letter-spacing: 7.04px;
+  font-size: 0.9em;
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.card-content > * {
+  margin-bottom: 1rem;
+}
+
+.card-image {
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 1.1em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.card-description {
+  font-size: 0.9em;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+.card-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.card-icons > * {
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+    padding: 1rem 1rem;
+    grid-gap: 2rem;
+    background-color: #3221ad;
+    justify-content: center;
+    align-items: center;
+  }
+  .Feature-title {
+    font-size: 1.2em;
+  }
+
+  .card-content {
+    flex: 2;
+  }
+  .card-title {
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .card-description {
+    font-size: 0.95em;
+    font-weight: 200;
+  }
+}
