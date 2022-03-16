@@ -4,8 +4,9 @@ import ownStyles from "./Description.module.css";
 import { LineTitle, SecondaryTitle } from "../../Titles";
 import { SecondaryParagraph } from "../../Paragraphs";
 import CardFeature from "./Components/CardFeature";
-import { features, Exclusive } from "./content";
+import { features, Exclusive, Nfts } from "./content";
 import CardScore from "./Components/CardScore";
+import CardNft from "./Components/CardNft";
 export default function index() {
   return (
     <ContainerSection
@@ -38,6 +39,11 @@ export default function index() {
         ))}
       </div>
       <LineTitle text={"Recent Project activity"} />
+      <div className={ownStyles["container-recents"]}>
+        {Nfts.map(({ name, detail, image }, index) => (
+          <CardNft key={name} name={name} detail={detail} image={image} />
+        ))}
+      </div>
     </ContainerSection>
   );
 }

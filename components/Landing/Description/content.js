@@ -178,3 +178,48 @@ export const Exclusive = [
     value: "0",
   },
 ];
+
+const urlImage = "/assets/Nft";
+
+export const Nfts = [
+  {
+    detail: "Sold on Solanart for 0.23 SOL",
+    name: "Neon Punks #270",
+    image: urlImage + "/Nft1.png",
+  },
+  {
+    detail: "Sold on Solanart for 0.15 SOL",
+    name: "Neon Punks #2062",
+    image: urlImage + "/Nft2.png",
+  },
+  {
+    detail: "Sold on Magic Eden for 0.15 SOL ",
+    name: "Neon Punks #1572",
+    image: urlImage + "/Nft3.png",
+  },
+  {
+    detail: "Sold on Magic Eden for 15.00 SOL ",
+    name: "The Naughty Panda #2829",
+    image: urlImage + "/Nft4.png",
+  },
+  {
+    detail: "Sold on Magic Eden for 0.18 SOL ",
+    name: "Greedy Giraffe #293",
+    image: urlImage + "/Nft5.png",
+  },
+  {
+    detail: "Sold on Magic Eden for 0.20 SOL ",
+    name: "Solander #754",
+    image: urlImage + "/Nft6.png",
+  },
+  {
+    detail: "Sold on Magic Eden for 13.49 SOL",
+    name: "Bull Empire #1138",
+    image: urlImage + "/Nft7.png",
+  },
+  {
+    detail: "Sold on Solanart for 3.50 SOL",
+    name: "Samoyed #1541",
+    image: urlImage + "/Nft8.png",
+  },
+];
