@@ -64,10 +64,10 @@ export default function index({ data = [] }) {
         ))}
       </Swiper>
       <div>
-        <button style={buttonStyle} onClick={() => goNext()}>
+        <button style={buttonStyle} onClick={() => goPrev()}>
           <FontAwesomeIcon icon={faAngleLeft} size="2x" color="#e4e1ff81" />
         </button>
-        <button style={buttonStyle} onClick={() => goPrev()}>
+        <button style={buttonStyle} onClick={() => goNext()}>
           <FontAwesomeIcon icon={faAngleRight} size="2x" color="#e4e1ff81" />
         </button>
       </div>
