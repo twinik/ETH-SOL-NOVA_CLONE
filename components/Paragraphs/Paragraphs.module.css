@@ -1,0 +1,18 @@
+.MainParagraph {
+  color: #e4e1ffea;
+  font-size: 0.9em;
+  margin: 2rem 0;
+}
+
+.SecondaryParagraph{
+  color: #e4e1ffea;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .MainParagraph {
+  font-size: 1.1em;
+    max-width: 700px;
+  }
+}

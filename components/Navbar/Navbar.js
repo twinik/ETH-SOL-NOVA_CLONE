@@ -19,11 +19,21 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   });
 
-  return !width ? (
-    " "
-  ) : width > 1000 ? (
-    <Desktop style={style} logo={logo} width={clientWindowHeight} />
-  ) : (
-    <Mobile style={style} logo={logo} width={clientWindowHeight} />
+  return (
+    <div
+      className={
+        clientWindowHeight < 10
+          ? style["nav-containerWrap"]
+          : `${style["nav-containerWrap"]} ${style["active"]}`
+      }
+    >
+      {!width ? (
+        " "
+      ) : width > 1000 ? (
+        <Desktop style={style} logo={logo} width={clientWindowHeight} />
+      ) : (
+        <Mobile style={style} logo={logo} width={clientWindowHeight} />
+      )}
+    </div>
   );
 }

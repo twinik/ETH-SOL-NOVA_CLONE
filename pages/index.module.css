@@ -1,6 +1,20 @@
 .container {
-  background: #422eb1;
-  
   color: white;
-  height: 100vh;
+  padding-bottom: 20rem;
+  padding: 0 1.2rem;
+  max-width: 950px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 2.4rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1100px;
+    padding: 0 0;
+  }
 }
