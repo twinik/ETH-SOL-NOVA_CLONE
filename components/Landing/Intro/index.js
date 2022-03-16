@@ -4,6 +4,8 @@ import { MainTitle } from "../../Titles";
 import { MainParagraph } from "../../Paragraphs";
 import { ButtonRoundedSecondary } from "../../Buttons";
 import Swiper from "../../Swiper";
+import {ContainerSection} from "../../Containers";
+
 export default function index() {
   const baseAssetsUrl = "/assets";
   const data = [
@@ -34,7 +36,7 @@ export default function index() {
   ];
 
   return (
-    <div className={ownStyles["Intro-container"]}>
+    <ContainerSection className={ownStyles["Intro-container"]}>
       <MainTitle text={"Empowering NFT Creators"} />
       <MainParagraph
         style={{ marginTop: "0" }}
@@ -54,6 +56,6 @@ export default function index() {
         See some recent NFT launches
       </span>
       <Swiper data={data} />
-    </div>
+    </ContainerSection>
   );
 }

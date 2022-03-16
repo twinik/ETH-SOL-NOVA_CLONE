@@ -6,8 +6,8 @@ import { Intro } from "../components/Landing";
 import Particles from "../components/Particles";
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Intro/>
+    <div>
+      <Intro />
       <style jsx global>{`
         html,
         body {
