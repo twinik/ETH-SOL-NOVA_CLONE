@@ -26,6 +26,7 @@
 @media screen and (min-width: 1300px) {
   .nav-link {
     font-size: 0.8em;
+    font-weight: 500;
   }
 }
 
@@ -34,6 +35,6 @@
     flex: 0.95;
   }
   .nav-link {
-    font-size: 0.82em;
+    font-size: 0.85em;
   }
 }

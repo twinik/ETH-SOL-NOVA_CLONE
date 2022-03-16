@@ -4,8 +4,57 @@
   margin: 2rem 0;
 }
 
+.SecondaryTitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.6em;
+  margin: 0;
+  margin-bottom: 1.25rem;
+}
+.LineTitle {
+  color: #07bcff;
+  letter-spacing: 2.464px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding-left: 75px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.LineTitle:before {
+  position: absolute;
+  left: 0 !important;
+  top: 50%;
+  margin-top: -1px;
+  height: 2px;
+  width: 60px;
+  content: "";
+  transform: translate(0, -50%) !important;
+  opacity: 1 !important;
+  background-color: #07bcff;
+}
+
 @media screen and (min-width: 768px) {
   .MainTitle {
     font-size: 2.5em;
+  }
+  .SecondaryTitle {
+    font-size: 2.3em;
+  }
+  .LineTitle {
+    font-size: .9em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .MainTitle {
+    font-size: 2.7em;
+
+    margin-top: 0;
   }
 }

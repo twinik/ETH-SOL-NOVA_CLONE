@@ -16,3 +16,9 @@
     max-width: 700px;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .MainParagraph {
+    max-width: 1100px;
+  }
+}
