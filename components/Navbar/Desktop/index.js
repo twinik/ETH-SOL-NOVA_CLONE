@@ -9,13 +9,7 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import MenuDropdown from "../../Navbar/Components/MenuDropdown";
 export default function mobile({ style, logo, width }) {
   return (
-    <div
-      className={
-        width < 10
-          ? style["nav-container"]
-          : `${style["nav-container"]} ${style["active"]}`
-      }
-    >
+    <div className={style["nav-container"]}>
       <div style={{ width: 250 }}>
         <Image src={logo} alt="Nova Launch Logo" layout="responsive" />
       </div>
@@ -39,11 +33,8 @@ export default function mobile({ style, logo, width }) {
           {" "}
         </div>
         <MenuDropdown>
-          <span className={ownStyles["nav-link"]} style={{fontSize:'.8em'}}>
-            Products{" "}
-            <FontAwesomeIcon
-              icon={faChevronDown}
-            />
+          <span className={ownStyles["nav-link"]} style={{ fontSize: ".8em" }}>
+            Products <FontAwesomeIcon icon={faChevronDown} />
           </span>
         </MenuDropdown>
         <ButtonRounded text={"Launch your nft mint"} />

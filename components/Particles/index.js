@@ -4,11 +4,16 @@ import Particles from "react-tsparticles";
 export default function Index() {
   return (
     <Particles
+      style={{ zIndex: -1 }}
       options={{
         autoPlay: {
           enable: true,
           interval: 5000,
           swapImageDuration: 1000,
+        },
+        fullScreen: {
+          enable: true,
+          zIndex: 0,
         },
         fpsLimit: 60,
         particles: {

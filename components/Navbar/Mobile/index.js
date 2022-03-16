@@ -20,22 +20,16 @@ export default function mobile({ style, logo, width }) {
     config: config.slow,
   });
   const SlideIn = useTransition(isOpen, {
-    from: { translate: "-300px" },
+    from: { translate: "-700px" },
     enter: { translate: "0px" },
-    leave: { translate: "-300px" },
+    leave: { translate: "-700px" },
     reverse: isOpen,
     config: config.slow,
   });
 
   return (
     <>
-      <div
-        className={
-          width < 10
-            ? style["nav-container"]
-            : `${style["nav-container"]} ${style["active"]}`
-        }
-      >
+      <div className={style["nav-container"]}>
         <div style={isOpen ? { opacity: 0 } : { width: 250 }}>
           <Image
             className="nav-iconLogo"
@@ -74,6 +68,7 @@ export default function mobile({ style, logo, width }) {
               <div style={{ paddingTop: "2.2rem", width: "90%" }}>
                 {ProductsOptions.map(({ title, description, icon }, index) => (
                   <ItemNavbarProduct
+                    key={title}
                     title={title}
                     description={description}
                     icon={icon}
@@ -89,7 +84,7 @@ export default function mobile({ style, logo, width }) {
               </div>
               <div style={{ paddingTop: "2.2rem", width: "90%" }}>
                 {OptionsMenu.map((text, index) => (
-                  <ItemNavBar text={text} />
+                  <ItemNavBar key={text} text={text} />
                 ))}
               </div>
             </animated.div>

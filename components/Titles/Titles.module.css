@@ -1,0 +1,11 @@
+.MainTitle {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .MainTitle {
+    font-size: 2.5em;
+  }
+}
