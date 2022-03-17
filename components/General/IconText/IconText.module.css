@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  background-color: #07bcff;
+  border-radius: 50%;
+  padding: .7rem .8rem;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.text {
+  font-size: 0.9em;
+  letter-spacing: 0.07px;
+  color: #07bcff;
+}
