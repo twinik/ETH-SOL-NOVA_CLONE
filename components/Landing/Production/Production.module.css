@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) {
+  .Production-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 0 1rem;
+  }
+  .Production-container > * {
+    flex: 1;
+  }
+  .Production-image {
+    flex: 2;
+  }
+  .Production-icon {
+    width: 130%;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Production-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title title"
+      "paragraph image"
+      "icon icon";
+  }
+  .Production-icon {
+    grid-area: icon;
+    margin-right: auto;
+  }
+  .Production-image {
+  }
+}
