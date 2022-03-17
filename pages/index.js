@@ -7,6 +7,7 @@ import {
   FeatureProject,
   Description,
   Production,
+  Minting
 } from "../components/Landing";
 import Particles from "../components/Particles";
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <FeatureProject />
       <Description />
       <Production />
+      <Minting/>
       <style jsx global>{`
         html,
         body {
