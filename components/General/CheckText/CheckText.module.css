@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: left;
     align-items: flex-start;
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
   .icon {
     display: flex;
@@ -13,14 +13,24 @@
     justify-content: center;
     align-items: center;
     margin-right: 1rem;
-    margin-top: .3rem;
   }
   
   .text {
     font-size: 0.86em;
-    font-weight: 200;
-    color: #e4e1ffa4;
+    font-weight: 300;
+    color: #a89ffe;
     line-height:  1.8;
     text-align: left;
   }
   
+  @media screen and (min-width: 1024px) {
+    .container {
+   
+      margin: 1.5rem 0;
+    }
+    .text {
+      font-size: .9em;
+
+    }
+  }
+    
