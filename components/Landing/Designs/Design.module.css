@@ -1,0 +1,65 @@
+.container-design {
+}
+
+.image {
+  width: 40%;
+}
+
+.Card {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 350px;
+  }
+  .Card {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .image {
+    flex: 0.6 !important;
+  }
+  .Card > * {
+    flex: 1;
+  }
+  .Card {
+    grid-gap: 2rem;
+  }
+  .container-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+  }
+  .manage-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+  }
+  .manage-container > * {
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container-header {
+    width: 60%;
+  }
+  .container-cards {
+    grid-gap: 6rem;
+  }
+  .manage-container > * {
+    margin:0rem 1rem
+  }
+}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 1rem 0;
+  }
+  .icon {
+    display: flex;
+    background-color: #07bcff;
+    border-radius: 50%;
+    padding: .4rem .5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    margin-top: .3rem;
+  }
+  
+  .text {
+    font-size: 0.86em;
+    font-weight: 200;
+    color: #e4e1ffa4;
+    line-height:  1.8;
+    text-align: left;
+  }
+  

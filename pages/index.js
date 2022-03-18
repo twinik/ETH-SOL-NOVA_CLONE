@@ -1,13 +1,12 @@
-import Head from "next/head";
 import styles from "./index.module.css";
-import Navbar from "../components/Navbar/Navbar";
 import React, { useState, useEffect } from "react";
 import {
   Intro,
   FeatureProject,
   Description,
   Production,
-  Minting
+  Minting,
+  Design,
 } from "../components/Landing";
 import Particles from "../components/Particles";
 export default function Home() {
@@ -17,7 +16,8 @@ export default function Home() {
       <FeatureProject />
       <Description />
       <Production />
-      <Minting/>
+      <Minting />
+      <Design />
       <style jsx global>{`
         html,
         body {

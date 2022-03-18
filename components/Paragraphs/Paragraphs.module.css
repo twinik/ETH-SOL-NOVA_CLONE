@@ -21,4 +21,7 @@
   .MainParagraph {
     max-width: 1100px;
   }
+  .SecondaryParagraph{
+    font-weight: 400;
+  }
 }
