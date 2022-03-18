@@ -1,0 +1,10 @@
+.container-features {
+}
+
+@media screen and (min-width: 1024px) {
+  .container-features {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 4rem;
+  }
+}

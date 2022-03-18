@@ -7,6 +7,7 @@ import {
   Production,
   Minting,
   Design,
+  Audience,
 } from "../components/Landing";
 import Particles from "../components/Particles";
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Production />
       <Minting />
       <Design />
+      <Audience/>
       <style jsx global>{`
         html,
         body {
