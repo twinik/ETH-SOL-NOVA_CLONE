@@ -9,6 +9,7 @@ import {
   Design,
   Audience,
   Structure,
+  Requirements,
 } from "../components/Landing";
 import Particles from "../components/Particles";
 export default function Home() {
@@ -22,7 +23,7 @@ export default function Home() {
       <Design />
       <Audience />
       <Structure />
-
+      <Requirements />
       <style jsx global>{`
         html,
         body {
