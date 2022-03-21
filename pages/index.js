@@ -11,6 +11,7 @@ import {
   Structure,
   Requirements,
   RoadMap,
+  Launches,
 } from "../components/Landing";
 import Particles from "../components/Particles";
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <Structure />
       <Requirements />
       <RoadMap />
+      <Launches/>
       <style jsx global>{`
         html,
         body {

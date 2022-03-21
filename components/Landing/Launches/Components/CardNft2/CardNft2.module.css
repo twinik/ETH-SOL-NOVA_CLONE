@@ -1,0 +1,52 @@
+.card-container {
+    color: rgba(255, 255, 255, 0.815);
+}
+.image{
+  border-radius: 5px;
+}
+.card-name {
+  font-size: 1em;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.card-detail {
+  font-size: 0.88em;
+  font-weight: 300;
+  margin-top: .5rem;
+  margin-bottom: .3rem;
+}
+.card-time {
+  background-color: black;
+  border-radius: 20px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.2rem .7rem;
+  text-transform: uppercase;
+  font-size: .6em;
+  color: white;
+}
+.card-detail-colored{
+  color: #07bcff;
+  font-weight: 300;
+  font-size: .85em;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .card-name {
+    font-size: 1.1em;
+  }
+  .card-detail {
+    font-size: 0.98em;
+  }
+  .card-time {
+    font-size: .7em;
+  }
+  .card-detail-colored{
+    font-size: .95em;
+  }
+  
+}
+
