@@ -21,7 +21,7 @@ export default function index() {
       />
       <div className={ownStyles["container-roadMap"]}>
         {steps.map((step, index) => (
-          <RoadItem data={step} key={index} />
+          <RoadItem data={step} key={step.title} />
         ))}
       </div>
     </ContainerSection>
