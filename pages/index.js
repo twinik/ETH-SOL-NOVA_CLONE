@@ -22,7 +22,7 @@ export default function Home() {
       <Design />
       <Audience />
       <Structure />
-
+      
       <style jsx global>{`
         html,
         body {
