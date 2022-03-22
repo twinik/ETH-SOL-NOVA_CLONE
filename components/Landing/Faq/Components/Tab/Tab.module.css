@@ -1,0 +1,27 @@
+.tab-container-button {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-container-button >* {
+    margin-right: .9rem;
+}
+
+.tab-button {
+  color: #e4e1ff;
+  background: rgba(7, 188, 255, 0.1);
+  border-color: transparent;
+  border-radius: 3px;
+  padding: 10px 18px;
+  line-height: 19px;
+  font-weight: 500;
+  font-family: 'poppins';
+  cursor: pointer;
+}
+
+.tab-button-active{
+  color: #07bcff!important;
+  background: rgba(255,255,255,.1);
+  font-weight: 400;
+}
+
