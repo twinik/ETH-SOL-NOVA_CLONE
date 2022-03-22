@@ -1,5 +1,5 @@
 import React from "react";
-import ownStyles from "./IconText.module.css";
+import ownStyles from "./IconTextSpecial.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function index({ text, style, className = "", icon }) {
   const wrapText = text.split(" ");

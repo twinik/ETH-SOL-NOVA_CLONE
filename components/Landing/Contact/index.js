@@ -1,5 +1,5 @@
 import React from "react";
-import ownStyles from "./Production.module.css";
+import ownStyles from "./Contact.module.css";
 import { ContainerSection } from "../../Containers";
 import Image from "next/image";
 import { LineTitle, SecondaryTitle } from "../../Titles";
