@@ -1,0 +1,24 @@
+.container-footer {
+  background-color: #160b6d;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.footer-paragraph{
+    font-size: .85em;
+    width: 85%;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-paragraph{
+    white-space: pre-line;
+  }
+}
+    
