@@ -10,6 +10,7 @@ import { IconText } from "../../General";
 export default function index() {
   return (
     <ContainerSection
+      id={"minting"}
       className={ownStyles["container-minting"]}
       backgroundColor={"#1d0e8a"}
     >

@@ -8,7 +8,7 @@ import CardNft2 from "./Components/CardNft2";
 import {nfts2} from './content'
 export default function index() {
   return (
-    <ContainerSection backgroundColor={"#3221ad"}>
+    <ContainerSection backgroundColor={"#3221ad"} id="projects">
       <SecondaryTitle text={"FEATURED NOVA LAUNCHES"} />
       <SecondaryParagraph
         style={{ textAlign: "center" }}

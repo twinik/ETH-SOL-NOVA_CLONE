@@ -8,6 +8,7 @@ export default function index({
   className = "",
   backgroundColor,
   first = false,
+  id
 }) {
   // Our custom easing
   let easing = [0.6, -0.05, 0.01, 0.99];
@@ -60,7 +61,7 @@ export default function index({
   }, [controls, inView]);
 
   return (
-    <section style={{ backgroundColor: backgroundColor }} ref={observe}>
+    <section id={id} style={{ backgroundColor: backgroundColor }} ref={observe}>
       <motion.div
         animate={controls}
         initial={"hidden"}

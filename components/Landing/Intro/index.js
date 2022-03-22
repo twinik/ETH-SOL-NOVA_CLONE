@@ -36,7 +36,7 @@ export default function index() {
   ];
 
   return (
-    <ContainerSection className={ownStyles["Intro-container"]} first={true}>
+    <ContainerSection className={ownStyles["Intro-container"]} first={true} id="why-nova">
       <MainTitle text={"Empowering NFT Creators"}  />
       <MainParagraph
         style={{ marginTop: "0" }}

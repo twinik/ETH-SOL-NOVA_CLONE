@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function index() {
   return (
-    <ContainerSection backgroundColor={"#3221ad"}>
+    <ContainerSection backgroundColor={"#3221ad"} id="faq">
       <LineTitle text={"FAQ"} />
       <SecondaryTitle
         style={{ textAlign: "left" }}

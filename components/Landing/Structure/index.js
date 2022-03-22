@@ -9,7 +9,7 @@ import { initials, tableData } from "./content";
 import Table from "./Components/Table";
 export default function index() {
   return (
-    <ContainerSection backgroundColor={"#3e2bc5"}>
+    <ContainerSection backgroundColor={"#3e2bc5"} id="pricing">
       <LineTitle text={"OUR PRICING"} />
       <SecondaryTitle
         style={{ textAlign: "left"}}

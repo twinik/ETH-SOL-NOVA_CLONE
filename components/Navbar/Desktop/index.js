@@ -7,7 +7,14 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import MenuDropdown from "../../Navbar/Components/MenuDropdown";
+import Link from "next/link";
 export default function mobile({ style, logo, width }) {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   return (
     <div className={style["nav-container"]}>
       <div style={{ width: 250 }}>
@@ -15,14 +22,22 @@ export default function mobile({ style, logo, width }) {
       </div>
 
       <div className={ownStyles["nav-links-container"]}>
-        {OptionsMenu.map((option, index) => (
-          <span className={ownStyles["nav-link"]}>{option}</span>
-        ))}
-        <FontAwesomeIcon
-          className={ownStyles["nav-link"]}
-          style={{ fontSize: "1em" }}
-          icon={faTwitter}
-        />
+        {OptionsMenu.map(({ label, to }, index) =>
+          index == 0 ? (
+            <span onClick={()=>scrollToTop()} className={ownStyles["nav-link"]}>{label}</span>
+          ) : (
+            <Link href={to}>
+              <span className={ownStyles["nav-link"]}>{label}</span>
+            </Link>
+          )
+        )}
+        <Link href={"https://twitter.com/nova_launch"}>
+          <FontAwesomeIcon
+            className={ownStyles["nav-link"]}
+            style={{ fontSize: "1em" }}
+            icon={faTwitter}
+          />
+        </Link>
         <div
           style={{
             borderRight: "thin solid #ffffff3b",

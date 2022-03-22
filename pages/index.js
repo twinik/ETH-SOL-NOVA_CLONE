@@ -38,6 +38,7 @@ export default function Home() {
           padding: 0;
           margin: 0;
           font-family: poppins;
+          scroll-behavior: smooth;
         }
 
         * {
