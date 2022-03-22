@@ -1,5 +1,5 @@
 import styles from "./index.module.css";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import {
   Intro,
   FeatureProject,
@@ -29,10 +29,9 @@ export default function Home() {
       <Structure />
       <Requirements />
       <RoadMap />
-      <Launches/>
+      <Launches />
       <Faq />
-      <Contact/>
-      
+      <Contact />
       <style jsx global>{`
         html,
         body {
