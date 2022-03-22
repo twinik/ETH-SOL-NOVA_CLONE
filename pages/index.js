@@ -12,6 +12,7 @@ import {
   Requirements,
   RoadMap,
   Launches,
+  Faq,
 } from "../components/Landing";
 import Particles from "../components/Particles";
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <Requirements />
       <RoadMap />
       <Launches/>
+      <Faq />
       <style jsx global>{`
         html,
         body {
