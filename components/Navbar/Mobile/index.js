@@ -83,8 +83,8 @@ export default function mobile({ style, logo, width }) {
                 ))}
               </div>
               <div style={{ paddingTop: "2.2rem", width: "90%" }}>
-                {OptionsMenu.map((text, index) => (
-                  <ItemNavBar key={text} text={text} />
+                {OptionsMenu.map(({label,to}, index) => (
+                  <ItemNavBar key={label} to={to} text={label} setOpen={setOpen} index={index} />
                 ))}
               </div>
             </animated.div>
