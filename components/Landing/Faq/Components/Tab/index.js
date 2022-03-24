@@ -108,7 +108,7 @@ export default function index({ data }) {
               const answers = answer.split("\n");
 
               return (
-                <Accordion.Item key={index} label={question} style={{}}>
+                <Accordion.Item key={answer} label={question} style={{}}>
                   {answers.map((answer, index) => {
                     return <p>{answer}</p>
                   })}

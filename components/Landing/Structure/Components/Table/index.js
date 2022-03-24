@@ -5,7 +5,7 @@ export default function index({ data,style }) {
     <table style={{...style}} className={ownStyles["table"]}>
       <tbody>
         {data.map(({head,colum}, index) => (
-          <tr>
+          <tr key={head}>
             <td className={ownStyles["table-head"]}>{head}</td>
             <td className={ownStyles["table-colum"]}>{colum}</td>
           </tr>
