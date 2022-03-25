@@ -61,11 +61,10 @@ export default function index({
   }, [controls, inView]);
 
   return (
-    <section id={id} style={{ backgroundColor: backgroundColor }} ref={observe}>
+    
+    <section id={id} style={{ backgroundColor: backgroundColor,overflow: "hidden" }} ref={observe}>
       <motion.div
-        animate={controls}
-        initial={"hidden"}
-        variants={fadeInUp}
+        
         className={`${ownStyles["container-section"]} ${className}`}
       >
         {children}

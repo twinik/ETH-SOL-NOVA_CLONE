@@ -1,6 +1,6 @@
 .MainParagraph {
   color: #e4e1ffea;
-  font-size: 0.9em;
+  font-size: 0.96em;
   margin: 2rem 0;
 }
 
@@ -9,6 +9,11 @@
   font-size: 0.9em;
   font-weight: 300;
 }
+
+.terParagraph{
+  color: #af9cff;
+}
+
 
 @media screen and (min-width: 768px) {
   .MainParagraph {

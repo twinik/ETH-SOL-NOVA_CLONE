@@ -9,7 +9,7 @@ import {nfts2} from './content'
 export default function index() {
   return (
     <ContainerSection backgroundColor={"#3221ad"} id="projects">
-      <SecondaryTitle text={"FEATURED NOVA LAUNCHES"} />
+      <SecondaryTitle style={{ textAlign: "center" }} text={"FEATURED NOVA LAUNCHES"} />
       <SecondaryParagraph
         style={{ textAlign: "center" }}
         content={"Our Platform Empowers Creators, Games & Projects for Success"}

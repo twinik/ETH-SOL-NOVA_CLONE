@@ -14,7 +14,7 @@ export default function index() {
       backgroundColor={"#3221ad"}
     >
       <LineTitle text={"Not Just a Launchpad"} />
-      <SecondaryTitle text={"Nova Launch is the Complete NFT Platform"} />
+      <SecondaryTitle style={{textAlign:'center'}} text={"Nova Launch is the Complete NFT Platform"} />
       <div className={ownStyles["features-container"]}>
         {features.map(({ title, icon, description, url = "" }, index) => (
           <CardFeature

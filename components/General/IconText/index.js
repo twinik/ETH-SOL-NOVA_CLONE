@@ -15,3 +15,17 @@ export default function index({ text, style, className }) {
     </div>
   );
 }
+
+export function iconText2({ text, style, className }) {
+  return (
+    <div
+      className={`${className} ${ownStyles["container"]} `}
+      style={{ ...style }}
+    >
+      <div className={`${ownStyles["icon"]} ${ownStyles["icon-secondary"]}`}>
+        <FontAwesomeIcon icon={faPlay} />
+      </div>
+      <span className={`${ownStyles["text"]} ${ownStyles["text-secondary"]}`}>{text}</span>
+    </div>
+  );
+}

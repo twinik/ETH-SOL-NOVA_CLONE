@@ -5,11 +5,19 @@
 }
 
 .SecondaryTitle {
-  text-align: center;
+  text-align: left;
   font-weight: 600;
   font-size: 1.6em;
   margin: 0;
   margin-bottom: 1.25rem;
+}
+
+.LineSecond {
+  color: #866bfe!important;
+  font-size: 0.7em!important;
+}
+.LineSecond:before {
+  background-color: #866bfe!important;
 }
 .LineTitle {
   color: #07bcff;
@@ -24,6 +32,7 @@
   display: inline-block;
   position: relative;
   margin-bottom: 1.25rem;
+  width: fit-content;
 }
 
 .LineTitle:before {
@@ -48,7 +57,12 @@
     font-weight: 500;
   }
   .LineTitle {
-    font-size: .9em;
+    font-size: 0.9em;
+    text-align: left;
+  }
+  .LineSecond {
+    font-size: .9em!important;
+    text-align: left;
   }
 }
 

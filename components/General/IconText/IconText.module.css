@@ -19,3 +19,10 @@
   letter-spacing: 0.07px;
   color: #07bcff;
 }
+
+.icon-secondary{
+  background-color: #866bfe;
+}
+.text-secondary{
+  color: #866bfe;
+}

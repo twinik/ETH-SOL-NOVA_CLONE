@@ -1,3 +1,5 @@
 export {default as IconText} from './IconText/index.js'
 export {default as CheckText} from './CheckText/index.js'
+export {second as CheckTextSecondary} from './CheckText/index.js'
 export {default as IconTextSpecial} from './IconTextSpecial/index.js'
+export {iconText2 as IconTextSecondary} from './IconText/index.js'

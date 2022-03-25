@@ -32,19 +32,7 @@ export default function Home() {
       <Launches />
       <Faq />
       <Contact />
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: poppins;
-          scroll-behavior: smooth;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+      
     </div>
   );
 }
