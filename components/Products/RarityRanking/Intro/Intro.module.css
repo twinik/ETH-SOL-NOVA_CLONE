@@ -26,13 +26,16 @@
 .seeProjectsLink {
 	margin-top: 2rem;
 	color: #f6fafd;
-	font-size: 0.75rem;
+	background-color: #026bfb;
+	font-size: 0.8rem;
+	padding: 10px 15px;
+	border-radius: 5px;
 	text-decoration: none;
 	transition: 1s;
 }
 
 .seeProjectsLink:hover {
-	color: #16a3fe;
+	background-color: #0056ce;
 	transition: 1s;
 }
 
