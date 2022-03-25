@@ -1,44 +1,41 @@
 .content {
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 .container-intro {
-  height: 90vh;
-}
-
-.content h3 {
-  margin-top: 4rem;
 }
 
 .content > * {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 0 !important;
+  text-align: left!important;
 }
 
 .image {
-  margin-top: 2rem;
   width: 100%;
 }
-@media screen and (min-width: 768px) {
-  .content > * {
-    margin-top: 1rem;
-    margin-bottom: 0 !important;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container-intro {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    grid-gap: 2rem;
   }
-  .content h3 {
-    margin-top: 0;
+  .container-intro > * {
+   flex: 1;
   }
   .image {
-    margin-top: 2rem;
+    flex: 1.46;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
   .container-intro {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     grid-gap: 3rem;
     overflow: hidden;
     justify-content: center;
@@ -56,6 +53,7 @@
   }
   .content > * {
     text-align: left !important;
+    margin-top: 1.5rem;
   }
   .image {
     position: relative;
@@ -68,7 +66,7 @@
 @media screen and (min-width: 1440px) {
   .container-intro {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     grid-gap: 3rem;
     margin-right: 0 !important;
     margin-left: 10rem !important;
@@ -84,6 +82,7 @@
   }
   .content > * {
     text-align: left !important;
+    margin-top: 1rem;
   }
   .image {
     position: relative;
