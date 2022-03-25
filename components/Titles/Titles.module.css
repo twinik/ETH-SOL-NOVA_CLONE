@@ -5,7 +5,7 @@
 }
 
 .SecondaryTitle {
-  text-align: center;
+  text-align: left;
   font-weight: 600;
   font-size: 1.6em;
   margin: 0;
@@ -14,6 +14,7 @@
 
 .LineSecond {
   color: #866bfe!important;
+  font-size: 0.7em!important;
 }
 .LineSecond:before {
   background-color: #866bfe!important;

@@ -7,3 +7,11 @@ export default function index({ content, style }) {
     </p>
   );
 }
+
+export function para2({ content, style }) {
+  return (
+    <p className={`${ownStyles["SecondaryParagraph"]} ${ownStyles["terParagraph"]}`} style={{ ...style }}>
+      {content}
+    </p>
+  );
+}

@@ -3,7 +3,7 @@ import ownStyles from "./Intro.module.css";
 import { ContainerSection } from "../../../Containers";
 import { SecondaryTitle } from "../../../Titles";
 import { MainParagraph } from "../../../Paragraphs";
-import { ButtonRoundedSecondary } from "../../../Buttons";
+import { ButtonRoundedTertiary } from "../../../Buttons";
 import Image from "next/image";
 export default function index() {
   return (
@@ -23,12 +23,9 @@ export default function index() {
             "No coding required. Let Nova Launch - the trusted partner in high volume, best-in-class NFT live minting on the  Solana network handle your smart contract needs."
           }
         />
-        <ButtonRoundedSecondary
+        <ButtonRoundedTertiary
           text={"Mint with Nova Launch"}
-          style={{
-            background:
-              "linear-gradient(51deg, rgba(126,115,248,1) 0%, rgba(49,195,185,1) 99%)",
-          }}
+          
         />
       </div>
       <div className={ownStyles["image"]}>

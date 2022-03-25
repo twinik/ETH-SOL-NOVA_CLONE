@@ -1,0 +1,25 @@
+.container-minting {
+}
+
+.content> *{
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .container-mints {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .content> *{
+    white-space: pre-line;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-buttons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+

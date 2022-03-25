@@ -2,7 +2,7 @@ import React from "react";
 import ownStyles from "./Mint.module.css";
 import { ContainerSection } from "../../../Containers";
 import { LineTitle, SecondaryTitle, LineTitleSecondary } from "../../../Titles";
-import { SecondaryParagraph } from "../../../Paragraphs";
+import { TertiaryParagraph } from "../../../Paragraphs";
 import Image from "next/dist/client/image";
 export default function index() {
   return (
@@ -29,15 +29,13 @@ export default function index() {
           style={{ textAlign: "left" }}
           text={"We turn art into NFTs"}
         />
-        <SecondaryParagraph
+        <TertiaryParagraph
           content={
             "Start with attributes & layers to build a generative series, or upload your existing art. We'll create the smart contract & upload to the blockchain, enabling a no-code experience to launching your NFT mint."
           }
-          style={{ color: "#af9cff" }}
         />
-        <SecondaryParagraph
+        <TertiaryParagraph
           content={"We've launched dozens of successful projects already."}
-          style={{ color: "#af9cff" }}
         />
       </div>
     </ContainerSection>

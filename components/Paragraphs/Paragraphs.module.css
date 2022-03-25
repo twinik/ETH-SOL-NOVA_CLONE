@@ -10,6 +10,11 @@
   font-weight: 300;
 }
 
+.terParagraph{
+  color: #af9cff;
+}
+
+
 @media screen and (min-width: 768px) {
   .MainParagraph {
   font-size: 1.1em;

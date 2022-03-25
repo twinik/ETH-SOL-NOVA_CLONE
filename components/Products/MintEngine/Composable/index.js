@@ -2,7 +2,7 @@ import React from "react";
 import ownStyles from "./Composable.module.css";
 import { ContainerSection } from "../../../Containers";
 import { SecondaryTitle, LineTitleSecondary } from "../../../Titles";
-import { SecondaryParagraph } from "../../../Paragraphs";
+import { TertiaryParagraph } from "../../../Paragraphs";
 import { IconTextSecondary } from "../../../General";
 import Image from "next/image";
 export default function index() {
@@ -25,14 +25,14 @@ export default function index() {
       <div className={ownStyles["content"]}>
         <LineTitleSecondary text={"COMPOSABLE SMART CONTRACT"} />
         <SecondaryTitle text={"Setup a Mint, easily."} />
-        <SecondaryParagraph
-          style={{ textAlign: "center", color: "#af9cff" }}
+        <TertiaryParagraph
+          style={{ textAlign: "center" }}
           content={
             "Create presales, live minting, gated mints & more through our platform."
           }
         />
-        <SecondaryParagraph
-          style={{ textAlign: "center", color: "#af9cff" }}
+        <TertiaryParagraph
+          style={{ textAlign: "center" }}
           content={
             "A completely seamless experience to launching your NFT project on Solana."
           }
