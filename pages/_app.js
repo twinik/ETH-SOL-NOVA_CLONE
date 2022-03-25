@@ -12,14 +12,23 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar />
-      <AnimatePresence
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        
-      >
+      <AnimatePresence initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <Component {...pageProps} />
       </AnimatePresence>
       <Footer />
+      <style jsx global>{`
+        html,
+        body {
+          padding: 0;
+          margin: 0;
+          font-family: poppins;
+          scroll-behavior: smooth;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+      `}</style>
     </>
   );
 }

@@ -7,3 +7,11 @@ export default function index({ text, style }) {
     </h3>
   );
 }
+
+export function line2({ text, style }) {
+  return (
+    <h3 style={{ ...style }} className={`${ownStyles["LineTitle"]} ${ownStyles["LineSecond"]}`}>
+      {text}
+    </h3>
+  );
+}
