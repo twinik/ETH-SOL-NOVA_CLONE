@@ -1,67 +1,60 @@
 .content {
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 .container-intro {
-  min-height: 91vh;
-}
-
-.content h3 {
-  margin-top: 4rem;
 }
 
 .content > * {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 0 !important;
+  text-align: left !important;
 }
 
 .image {
-  margin: auto;
-  margin-top: 2rem;
   width: 100%;
 }
 
-.buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  grid-gap: 1rem;
+.line-title {
+  margin-top: 1.5rem;
+  font-size: 1rem !important;
+  color: #2b56f5 !important;
 }
 
-.seeProjectsLink {
-  margin-top: 2rem;
-  color: #f6fafd;
-  font-size: 0.75rem;
-  text-decoration: none;
-  transition: 1s;
+.line-title::before {
+  background-color: #2b56f5 !important;
 }
 
-.seeProjectsLink:hover {
-  color: #16a3fe;
-  transition: 1s;
+.icon-text span {
+  color: #d2d3ff !important;
 }
 
-@media screen and (min-width: 768px) {
-  .content > * {
-    margin-top: 1rem;
-    margin-bottom: 0 !important;
+.icon-text-sec div {
+  background-color: #169ef9 !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container-intro {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    grid-gap: 2rem;
   }
-  .content h3 {
-    margin-top: 0;
+  .container-intro > * {
+    flex: 1;
   }
   .image {
-    margin-top: 2rem;
+    flex: 1.46;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
   .container-intro {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     grid-gap: 3rem;
     overflow: hidden;
     justify-content: center;
@@ -75,22 +68,25 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex: 1;
+    flex: 0.4;
   }
   .content > * {
     text-align: left !important;
+    margin-top: 1.5rem;
   }
   .image {
-    margin-top: auto;
-    flex: 0.6;
+    position: relative;
+    margin: 0 -305px 0 0;
+    overflow: hidden;
+    flex: 1;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container-intro {
     display: flex;
-    flex-direction: row;
-    grid-gap: 0.5rem;
+    flex-direction: row-reverse;
+    grid-gap: 3rem;
     margin-right: 0 !important;
     margin-left: 10rem !important;
     max-width: 100% !important;
@@ -105,11 +101,14 @@
   }
   .content > * {
     text-align: left !important;
+    margin-top: 1rem;
   }
   .image {
-    margin: auto;
-    flex: 0.3;
-    margin-left: 0%;
+    position: relative;
+    margin: 0 -305px 0 0;
+    overflow: hidden;
+    flex: 1;
+    height: 70vh;
   }
 }
 
@@ -119,10 +118,6 @@
     padding-top: 7rem !important;
   }
   .content {
-    flex: 0.4;
-  }
-
-  .image {
     flex: 0.3;
   }
 }

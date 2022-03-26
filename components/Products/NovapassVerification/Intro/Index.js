@@ -20,7 +20,7 @@ export default function index() {
         <MainParagraphWithIcon
           style={{ textAlign: "center", color: "#8ca2e5" }}
           content1={
-            "Automatically assign Discord roles or access to member's only channels. Reward & recognize your NFT holders."
+            "Automatically assign Discord roles or access to member's only channels. Reward & recognize your NFT holders. Powered by Nova Launch - the Premier Solana NFT Platform & trusted NFT partner on the"
           }
           icon={
             <Image src="/assets/solana-sol-logo.svg" width={18} height={18} />
@@ -41,12 +41,12 @@ export default function index() {
       </div>
       <div className={ownStyles["image"]}>
         <Image
-          width={512}
-          height={512}
+          width={600}
+          height={720}
           loading="eager"
           objectFit="cover"
           layout="responsive"
-          src={"/assets/BotProtection/bot.png"}
+          src={"/assets/nova-pass-verification/novapass-feature-demo.png"}
         />
       </div>
     </ContainerSection>
