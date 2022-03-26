@@ -4,20 +4,19 @@
   margin: 2rem 0;
 }
 
-.SecondaryParagraph{
+.SecondaryParagraph {
   color: #e4e1ffea;
   font-size: 0.9em;
   font-weight: 300;
 }
 
-.terParagraph{
+.terParagraph {
   color: #af9cff;
 }
 
-
 @media screen and (min-width: 768px) {
   .MainParagraph {
-  font-size: 1.1em;
+    font-size: 1.1em;
     max-width: 700px;
   }
 }
@@ -26,7 +25,7 @@
   .MainParagraph {
     max-width: 1100px;
   }
-  .SecondaryParagraph{
+  .SecondaryParagraph {
     font-weight: 400;
   }
 }

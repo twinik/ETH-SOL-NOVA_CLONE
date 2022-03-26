@@ -13,11 +13,11 @@
 }
 
 .LineSecond {
-  color: #866bfe!important;
-  font-size: 0.7em!important;
+  color: #866bfe;
+  font-size: 0.7em !important;
 }
 .LineSecond:before {
-  background-color: #866bfe!important;
+  background-color: #866bfe;
 }
 .LineTitle {
   color: #07bcff;
