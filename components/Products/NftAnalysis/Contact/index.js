@@ -13,7 +13,7 @@ export default function index() {
   return (
     <ContainerSection
       className={ownStyles["container"]}
-      backgroundColor={"#2b4aed"}
+      backgroundColor={"#10122d"}
     >
       <div className={ownStyles["content"]}>
         <LineTitleTertiary classes={ownStyles["line-title"]} text={"CONTACT"} />
