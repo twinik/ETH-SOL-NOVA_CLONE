@@ -1,18 +1,18 @@
 import React from "react";
 import {
 	Intro,
-	Mint,
-	Composable,
+	DiscordSales,
+	PremiereToolbox,
 	OperateSystem,
-	Rarity,
+	Twitter,
 	Contact
 } from "../../components/Products/SalesBot";
 const Page = () => (
 	<div>
 		<Intro />
-		<Mint />
-		<Rarity />
-		<Composable />
+		<DiscordSales />
+		<Twitter />
+		<PremiereToolbox />
 		<OperateSystem />
 		<Contact />
 		<style jsx global>{`

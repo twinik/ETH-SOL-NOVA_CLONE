@@ -1,14 +1,16 @@
 import React from "react";
-import ownStyles from "./Mint.module.css";
+import ownStyles from "./PremiereToolbox.module.css";
 import { ContainerSection } from "../../../Containers";
 import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
+import { IconTextTertiary } from "../../../General";
+import { faCirclePlay } from "@fortawesome/free-regular-svg-icons";
 import Image from "next/dist/client/image";
 export default function index() {
 	return (
 		<ContainerSection
 			className={ownStyles["container"]}
-			backgroundColor={"#3221AD"}
+			backgroundColor={"#4936B5"}
 		>
 			<div className={ownStyles["image"]}>
 				<Image
@@ -17,25 +19,22 @@ export default function index() {
 					loading="eager"
 					objectFit="cover"
 					layout="responsive"
-					src={"/assets/nova-rarity-ranking-list.png"}
+					src={"/assets/nova-sales-page-settings.png"}
 				/>
 			</div>
 			<div className={ownStyles["content"]}>
 				<LineTitleTertiary
 					classes={ownStyles["line-title"]}
-					text={"GRANULAR SCORING CONTROL"}
+					text={"FINE TUNE YOUR SALES PAGE"}
 				/>
 				<SecondaryTitle
 					style={{ textAlign: "left" }}
-					text={"Rarity is Everything"}
+					text={"The Premier Toolbox for NFT Projects"}
 				/>
 				<TertiaryParagraph
 					content={
-						"Not all NFTs are created equal. Enable communities to gauge rareness and trade, encouraging higher volume & interest in your NFTs."
+						"Setup and customize your sales bots and sales page on Nova Launch, the premier launchpad & platform for NFT projects."
 					}
-				/>
-				<TertiaryParagraph
-					content={"Fine tune your collection's rarity & more."}
 				/>
 			</div>
 		</ContainerSection>

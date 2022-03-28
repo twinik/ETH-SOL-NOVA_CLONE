@@ -1,5 +1,5 @@
 import React from "react";
-import ownStyles from "./Composable.module.css";
+import ownStyles from "./RuleEngine.module.css";
 import { ContainerSection } from "../../../Containers";
 import { SecondaryTitle, LineTitleTertiary } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";

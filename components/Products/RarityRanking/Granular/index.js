@@ -1,17 +1,14 @@
 import React from "react";
-import ownStyles from "./Rarity.module.css";
+import ownStyles from "./Granular.module.css";
 import { ContainerSection } from "../../../Containers";
 import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
-import { IconTextTertiary } from "../../../General";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/dist/client/image";
-
 export default function index() {
 	return (
 		<ContainerSection
 			className={ownStyles["container"]}
-			backgroundColor={"#1940B0"}
+			backgroundColor={"#3221AD"}
 		>
 			<div className={ownStyles["image"]}>
 				<Image
@@ -20,32 +17,25 @@ export default function index() {
 					loading="eager"
 					objectFit="cover"
 					layout="responsive"
-					src={"/assets/nova-launch-nft-rarity.png"}
+					src={"/assets/nova-rarity-ranking-list.png"}
 				/>
 			</div>
 			<div className={ownStyles["content"]}>
 				<LineTitleTertiary
 					classes={ownStyles["line-title"]}
-					text={"ADVANCED RARITY ASSURANCE"}
+					text={"GRANULAR SCORING CONTROL"}
 				/>
 				<SecondaryTitle
 					style={{ textAlign: "left" }}
-					text={"Rarity is Key"}
+					text={"Rarity is Everything"}
 				/>
 				<TertiaryParagraph
 					content={
-						"By the time your community is minting, it's too late. Rest easy with our rarity calculations before uploading."
+						"Not all NFTs are created equal. Enable communities to gauge rareness and trade, encouraging higher volume & interest in your NFTs."
 					}
 				/>
-				<IconTextTertiary
-					icon={faCheck}
-					text={"No Duplicates - Ever"}
-					className={ownStyles["icon-text-sec"]}
-				/>
-				<IconTextTertiary
-					icon={faCheck}
-					text={"Automatically Checks for Errors"}
-					className={ownStyles["icon-text-sec"]}
+				<TertiaryParagraph
+					content={"Fine tune your collection's rarity & more."}
 				/>
 			</div>
 		</ContainerSection>

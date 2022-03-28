@@ -1,5 +1,5 @@
 import React from "react";
-import ownStyles from "./Mint.module.css";
+import ownStyles from "./Art.module.css";
 import { ContainerSection } from "../../../Containers";
 import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";

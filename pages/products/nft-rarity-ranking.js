@@ -1,17 +1,16 @@
 import React from "react";
 import {
 	Intro,
-	Mint,
-	Composable,
+	Granular,
+	RarityEngine,
 	OperateSystem,
-	Rarity,
 	Contact
 } from "../../components/Products/RarityRanking";
 const Page = () => (
 	<div>
 		<Intro />
-		<Composable />
-		<Mint />
+		<RarityEngine />
+		<Granular />
 		<OperateSystem />
 		<Contact />
 		<style jsx global>{`

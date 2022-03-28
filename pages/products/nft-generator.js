@@ -1,8 +1,8 @@
 import React from "react";
 import {
 	Intro,
-	Mint,
-	Composable,
+	Art,
+	RuleEngine,
 	OperateSystem,
 	Rarity,
 	Contact
@@ -10,8 +10,8 @@ import {
 const Page = () => (
 	<div>
 		<Intro />
-		<Mint />
-		<Composable />
+		<Art />
+		<RuleEngine />
 		<OperateSystem />
 		<Rarity />
 		<Contact />
