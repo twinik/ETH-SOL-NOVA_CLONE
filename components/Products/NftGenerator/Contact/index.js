@@ -1,6 +1,6 @@
 import React from "react";
 import { ContainerSection } from "../../../Containers";
-import { LineTitleSecondary } from "../../../Titles";
+import { LineTitle } from "../../../Titles";
 import { SecondaryTitle } from "../../../Titles";
 import { SecondaryParagraph } from "../../../Paragraphs";
 import { IconTextSpecial } from "../../../General";
@@ -17,7 +17,7 @@ export default function index() {
 			id="contact"
 		>
 			<div className={ownStyles["container-content"]}>
-				<LineTitleSecondary
+				<LineTitle
 					style={{ textAlign: "center", marginTop: "2rem" }}
 					text={"Contact"}
 				/>

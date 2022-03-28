@@ -1,7 +1,7 @@
 import React from "react";
 import ownStyles from "./Granular.module.css";
 import { ContainerSection } from "../../../Containers";
-import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
+import { LineTitle, SecondaryTitle } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
 import Image from "next/dist/client/image";
 export default function index() {
@@ -21,10 +21,7 @@ export default function index() {
 				/>
 			</div>
 			<div className={ownStyles["content"]}>
-				<LineTitleTertiary
-					classes={ownStyles["line-title"]}
-					text={"GRANULAR SCORING CONTROL"}
-				/>
+				<LineTitle text={"GRANULAR SCORING CONTROL"} />
 				<SecondaryTitle
 					style={{ textAlign: "left" }}
 					text={"Rarity is Everything"}

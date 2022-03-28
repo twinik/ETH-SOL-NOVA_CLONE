@@ -1,10 +1,7 @@
 import React from "react";
 import ownStyles from "./OperateSystem.module.css";
 import { ContainerSection } from "../../../../components/Containers";
-import {
-	LineTitleTertiary,
-	SecondaryTitle
-} from "../../../../components/Titles";
+import { LineTitle, SecondaryTitle } from "../../../../components/Titles";
 import { SecondaryParagraph } from "../../../../components/Paragraphs";
 import { ButtonRoundedTertiary } from "../../../../components/Buttons";
 
@@ -15,9 +12,9 @@ export default function index() {
 	return (
 		<ContainerSection backgroundColor={"#3A2B8B"}>
 			<div className={ownStyles["content"]}>
-				<LineTitleTertiary
-					classes={ownStyles["line-title"]}
+				<LineTitle
 					text={"THE COMPLETE NFT OPERATING SYSTEM"}
+					colorClass="violeta"
 				/>
 				<SecondaryTitle text={"We are Nova Launch"} />
 				<SecondaryParagraph

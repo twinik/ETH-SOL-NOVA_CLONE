@@ -1,7 +1,7 @@
 import React from "react";
 import ownStyles from "./RuleEngine.module.css";
 import { ContainerSection } from "../../../Containers";
-import { SecondaryTitle, LineTitleTertiary } from "../../../Titles";
+import { SecondaryTitle, LineTitle } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
 import { IconTextSecondary } from "../../../General";
 import Image from "next/image";
@@ -23,10 +23,7 @@ export default function index() {
 				/>
 			</div>
 			<div className={ownStyles["content"]}>
-				<LineTitleTertiary
-					classes={ownStyles["line-title"]}
-					text={"NOVA LAUNCH RULE ENGINE"}
-				/>
+				<LineTitle text={"NOVA LAUNCH RULE ENGINE"} />
 				<SecondaryTitle text={"Our Advanced Rule Layering Engine"} />
 				<TertiaryParagraph
 					style={{ textAlign: "center" }}

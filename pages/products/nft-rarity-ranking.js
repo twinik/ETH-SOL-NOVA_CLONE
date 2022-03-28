@@ -15,7 +15,7 @@ const Page = () => (
 		<Contact />
 		<style jsx global>{`
 			body {
-				background-color: #152c87 !important;
+				background-color: #3927ba !important;
 			}
 		`}</style>
 	</div>

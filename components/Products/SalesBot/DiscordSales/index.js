@@ -1,7 +1,7 @@
 import React from "react";
 import ownStyles from "./DiscordSales.module.css";
 import { ContainerSection } from "../../../Containers";
-import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
+import { LineTitle, SecondaryTitle } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
 import { IconTextTertiary } from "../../../General";
 import { faCirclePlay } from "@fortawesome/free-regular-svg-icons";
@@ -13,9 +13,9 @@ export default function index() {
 			backgroundColor={"#5D46E8"}
 		>
 			<div className={ownStyles["content"]}>
-				<LineTitleTertiary
-					classes={ownStyles["line-title"]}
+				<LineTitle
 					text={"DISCORD SALES NOTIFICATION BOT"}
+					colorClass="blanco"
 				/>
 				<SecondaryTitle
 					style={{ textAlign: "left" }}

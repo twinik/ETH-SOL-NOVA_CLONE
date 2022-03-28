@@ -1,8 +1,11 @@
 import React from "react";
 import ownStyles from "../Titles.module.css";
-export default function index({ text, style }) {
+export default function index({ text, style, colorClass }) {
 	return (
-		<h3 style={{ ...style }} className={ownStyles["LineTitle"]}>
+		<h3
+			style={{ ...style }}
+			className={`${ownStyles["LineTitle"]} ${ownStyles[colorClass]}`}
+		>
 			{text}
 		</h3>
 	);

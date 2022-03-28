@@ -2,7 +2,7 @@ import React from "react";
 import ownStyles from "./Contact.module.css";
 import { ContainerSection } from "../../../Containers";
 import Image from "next/image";
-import { LineTitleSecondary, SecondaryTitle } from "../../../Titles";
+import { LineTitle, SecondaryTitle } from "../../../Titles";
 import { SecondaryParagraph } from "../../../Paragraphs";
 import { IconTextSpecial } from "../../../General";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -16,9 +16,10 @@ export default function index() {
 			id="contact"
 		>
 			<div className={ownStyles["container-content"]}>
-				<LineTitleSecondary
+				<LineTitle
 					style={{ textAlign: "center", marginTop: "2rem" }}
 					text={"Contact"}
+					colorClass="blanco"
 				/>
 
 				<SecondaryTitle text={"Get in Touch"} />

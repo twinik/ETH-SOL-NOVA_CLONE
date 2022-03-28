@@ -1,7 +1,7 @@
 import React from "react";
 import ownStyles from "./PremiereToolbox.module.css";
 import { ContainerSection } from "../../../Containers";
-import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
+import { LineTitle, SecondaryTitle } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
 import { IconTextTertiary } from "../../../General";
 import { faCirclePlay } from "@fortawesome/free-regular-svg-icons";
@@ -23,9 +23,9 @@ export default function index() {
 				/>
 			</div>
 			<div className={ownStyles["content"]}>
-				<LineTitleTertiary
-					classes={ownStyles["line-title"]}
+				<LineTitle
 					text={"FINE TUNE YOUR SALES PAGE"}
+					colorClass="violeta"
 				/>
 				<SecondaryTitle
 					style={{ textAlign: "left" }}

@@ -1,7 +1,7 @@
 import React from "react";
 import ownStyles from "./Rarity.module.css";
 import { ContainerSection } from "../../../Containers";
-import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
+import { LineTitle, SecondaryTitle } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
 import { IconTextTertiary } from "../../../General";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
@@ -24,10 +24,7 @@ export default function index() {
 				/>
 			</div>
 			<div className={ownStyles["content"]}>
-				<LineTitleTertiary
-					classes={ownStyles["line-title"]}
-					text={"ADVANCED RARITY ASSURANCE"}
-				/>
+				<LineTitle text={"ADVANCED RARITY ASSURANCE"} />
 				<SecondaryTitle
 					style={{ textAlign: "left" }}
 					text={"Rarity is Key"}
