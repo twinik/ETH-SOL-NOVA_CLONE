@@ -29,7 +29,7 @@ export default function index() {
           content={
             "Nova Launch offers many ways to protect your mint, from Discord role & guild authentication, limited to NFT holders, password, & many more. Easily setup a mint gate through our platform."
           }
-          colorClass={"blanco"}
+          colorClass={"white"}
         />
       </div>
     </ContainerSection>

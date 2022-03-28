@@ -29,11 +29,11 @@ export default function index() {
           content={
             "Privacy focused but verifiable Discord to Solana Wallet connections. Discord users can link a Solana wallet in under 5 seconds & be eligible for special roles & more."
           }
-          colorClass={"violetaClaro"}
+          colorClass={"lightViolet"}
         />
         <TertiaryParagraph
           content={"Continuously role syncing - even if NFTs change hands."}
-          colorClass={"violetaClaro"}
+          colorClass={"lightViolet"}
         />
       </div>
     </ContainerSection>

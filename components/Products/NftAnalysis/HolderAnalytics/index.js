@@ -29,7 +29,7 @@ export default function index() {
           content={
             "Segmented & exportable data about your NFT holders, marketplace sales, mints, & more."
           }
-          colorClass={"blanco"}
+          colorClass={"white"}
         />
       </div>
     </ContainerSection>

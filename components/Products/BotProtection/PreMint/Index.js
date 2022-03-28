@@ -19,7 +19,7 @@ export default function index() {
           content={
             "Easily pre-register your community for an upcoming mint through Discord (and more social communities coming soon)."
           }
-          colorClass={"blanco"}
+          colorClass={"white"}
         />
         <IconTextTertiary
           icon={faCirclePlay}

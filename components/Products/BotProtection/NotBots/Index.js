@@ -13,17 +13,17 @@ export default function index() {
       backgroundColor={"#2b4aed"}
     >
       <div className={ownStyles["content"]}>
-        <LineTitle text={"NOT BOTS ALLOWED"} colorClass="blanco" />
+        <LineTitle text={"NOT BOTS ALLOWED"} colorClass="white" />
         <SecondaryTitle text={"On-Chain Bot Protection"} />
         <TertiaryParagraph
           content={"Only allow your users & community to mint your NFT launch."}
-          colorClass={"blanco"}
+          colorClass={"white"}
         />
         <TertiaryParagraph
           content={
             "100% Bot-proof - completely on chain through our smart-contract, requiring the exchange of a whitelist token + SOL in order to execute a mint."
           }
-          colorClass={"blanco"}
+          colorClass={"white"}
         />
         <IconTextTertiary
           icon={faCirclePlay}

@@ -27,18 +27,18 @@ export default function index() {
       </div>
       <div className={ownStyles["content"]}>
         <LineTitle
-          colorClass={"azul"}
+          colorClass={"blue"}
           text={"NOVA PASS AUTOMATED ROLES ENGINE"}
         />
         <SecondaryTitle text={"Flexible & Easy to Setup"} />
         <TertiaryParagraph
-          colorClass={"violetaClaro"}
+          colorClass={"lightViolet"}
           content={
             "Connect our Discord bot & get setup with Nova Pass to verify Holders of your NFTs easily & seamlessly."
           }
         />
         <TertiaryParagraph
-          colorClass={"violetaClaro"}
+          colorClass={"lightViolet"}
           content={
             "Featuring many different ways to authenticate & multiple role assignment."
           }

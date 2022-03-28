@@ -1,97 +1,97 @@
 .MainTitle {
-	font-size: 1.5em;
-	font-weight: 700;
-	margin: 2rem 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 2rem 0;
 }
 
 .SecondaryTitle {
-	text-align: left;
-	font-weight: 600;
-	font-size: 1.6em;
-	margin: 0;
-	margin-bottom: 1.25rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.6em;
+  margin: 0;
+  margin-bottom: 1.25rem;
 }
 
 .LineSecond {
-	color: #866bfe;
-	font-size: 0.7em !important;
+  color: #866bfe;
+  font-size: 0.7em !important;
 }
 .LineSecond:before {
-	background-color: #866bfe;
+  background-color: #866bfe;
 }
 .LineTitle {
-	color: #07bcff;
-	letter-spacing: 2.464px;
-	text-align: center;
-	font-size: 0.8em;
-	font-weight: 600;
-	padding-left: 75px;
-	display: inline-block;
-	font-weight: 600;
-	text-transform: uppercase;
-	display: inline-block;
-	position: relative;
-	margin-bottom: 1.25rem;
-	width: fit-content;
+  color: #07bcff;
+  letter-spacing: 2.464px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding-left: 75px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1.25rem;
+  width: fit-content;
 }
 
 .LineTitle:before {
-	position: absolute;
-	left: 0 !important;
-	top: 50%;
-	margin-top: -1px;
-	height: 2px;
-	width: 60px;
-	content: "";
-	transform: translate(0, -50%) !important;
-	opacity: 1 !important;
-	background-color: #07bcff;
+  position: absolute;
+  left: 0 !important;
+  top: 50%;
+  margin-top: -1px;
+  height: 2px;
+  width: 60px;
+  content: "";
+  transform: translate(0, -50%) !important;
+  opacity: 1 !important;
+  background-color: #07bcff;
 }
 
 /* COLORES */
-.violeta {
-	color: #866bfe !important;
+.violet {
+  color: #866bfe !important;
 }
-.violeta:before {
-	background-color: #866bfe;
-}
-
-.blanco {
-	color: #fff !important;
-}
-.blanco:before {
-	background-color: #fff;
+.violet:before {
+  background-color: #866bfe;
 }
 
-.azul {
-	color: #2b56f5 !important;
+.white {
+  color: #fff !important;
 }
-.azul:before {
-	background-color: #2b56f5;
+.white:before {
+  background-color: #fff;
+}
+
+.blue {
+  color: #2b56f5 !important;
+}
+.blue:before {
+  background-color: #2b56f5;
 }
 
 @media screen and (min-width: 768px) {
-	.MainTitle {
-		font-size: 2.5em;
-	}
-	.SecondaryTitle {
-		font-size: 2.3em;
-		font-weight: 500;
-	}
-	.LineTitle {
-		font-size: 0.9em;
-		text-align: left;
-	}
-	.LineSecond {
-		font-size: 0.9em !important;
-		text-align: left;
-	}
+  .MainTitle {
+    font-size: 2.5em;
+  }
+  .SecondaryTitle {
+    font-size: 2.3em;
+    font-weight: 500;
+  }
+  .LineTitle {
+    font-size: 0.9em;
+    text-align: left;
+  }
+  .LineSecond {
+    font-size: 0.9em !important;
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-	.MainTitle {
-		font-size: 2.7em;
+  .MainTitle {
+    font-size: 2.7em;
 
-		margin-top: 0;
-	}
+    margin-top: 0;
+  }
 }

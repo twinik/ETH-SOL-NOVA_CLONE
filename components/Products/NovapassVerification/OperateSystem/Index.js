@@ -13,7 +13,7 @@ export default function index() {
     <ContainerSection backgroundColor={"#08157a"}>
       <div className={ownStyles["content"]}>
         <LineTitle
-          colorClass={"azul"}
+          colorClass={"blue"}
           text={"THE COMPLETE NFT OPERATING SYSTEM"}
         />
         <SecondaryTitle text={"We are Nova Launch"} />
