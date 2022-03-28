@@ -1,61 +1,56 @@
 import React from "react";
+import ownStyles from "./Contact.module.css";
 import { ContainerSection } from "../../../Containers";
-import { LineTitleTertiary } from "../../../Titles";
-import { SecondaryTitle } from "../../../Titles";
-import { TertiaryParagraph } from "../../../Paragraphs";
-import { IconTextTertiary } from "../../../General";
+import Image from "next/image";
+import { LineTitleSecondary, SecondaryTitle } from "../../../Titles";
+import { SecondaryParagraph } from "../../../Paragraphs";
+import { IconTextSpecial } from "../../../General";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import Image from "next/image";
-import ownStyles from "./Contact.module.css";
 
 export default function index() {
-  return (
-    <ContainerSection
-      className={ownStyles["container"]}
-      backgroundColor={"#10122d"}
-    >
-      <div className={ownStyles["content"]}>
-        <LineTitleTertiary classes={ownStyles["line-title"]} text={"CONTACT"} />
-        <SecondaryTitle style={{ textAlign: "left" }} text={"Get In Touch"} />
-        <TertiaryParagraph
-          content={
-            "Any questions? Reach out to us and we’ll get back to you shortly."
-          }
-          style={{ color: "#fff" }}
-        />
-        <a href="" className={ownStyles["contactLink"]}>
-          <IconTextTertiary
-            icon={faEnvelope}
-            text={"contact@novalaunch.art"}
-            className={ownStyles["icon-text-sec"]}
-          />
-        </a>
-        <a href="" className={ownStyles["contactLink"]}>
-          <IconTextTertiary
-            icon={faDiscord}
-            text={"Join: Nova Launch Discord"}
-            className={ownStyles["icon-text-sec"]}
-          />
-        </a>
-        <a href="" className={ownStyles["contactLink"]}>
-          <IconTextTertiary
-            icon={faTwitter}
-            text={"Twitter: @nova_launch"}
-            className={ownStyles["icon-text-sec"]}
-          />
-        </a>
-      </div>
-      <div className={ownStyles["image"]}>
-        <Image
-          width={385}
-          height={201}
-          loading="eager"
-          objectFit="contain"
-          layout="responsive"
-          src={"/assets/gfx-q.png"}
-        />
-      </div>
-    </ContainerSection>
-  );
+	return (
+		<ContainerSection
+			className={ownStyles["Production-container"]}
+			backgroundColor={"#10122d"}
+			id="contact"
+		>
+			<div className={ownStyles["container-content"]}>
+				<LineTitleSecondary
+					style={{ textAlign: "center", marginTop: "2rem" }}
+					text={"Contact"}
+				/>
+
+				<SecondaryTitle text={"Get in Touch"} />
+				<SecondaryParagraph
+					style={{ textAlign: "center" }}
+					content="Any questions? Reach out to us and we’ll get back to you shortly."
+				/>
+				<div className={ownStyles["container-socialMedia"]}>
+					<IconTextSpecial
+						icon={faEnvelope}
+						text={"contact@novalaunch.art"}
+					/>
+					<IconTextSpecial
+						icon={faDiscord}
+						text={"Join: Nova Launch Discord"}
+					/>
+					<IconTextSpecial
+						icon={faTwitter}
+						text={"Twitter: @nova_launch"}
+					/>
+				</div>
+			</div>
+			<div className={ownStyles["Production-image"]}>
+				<Image
+					width={230}
+					height={200}
+					loading="eager"
+					objectFit="cover"
+					layout="responsive"
+					src={"/assets/gfx-q.png"}
+				/>
+			</div>
+		</ContainerSection>
+	);
 }

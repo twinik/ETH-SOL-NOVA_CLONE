@@ -1,62 +1,52 @@
 import React from "react";
+import ownStyles from "./Contact.module.css";
 import { ContainerSection } from "../../../Containers";
-import { LineTitleTertiary } from "../../../Titles";
-import { SecondaryTitle } from "../../../Titles";
-import { TertiaryParagraph } from "../../../Paragraphs";
-import { IconTextTertiary } from "../../../General";
+import Image from "next/image";
+import { LineTitleSecondary, SecondaryTitle } from "../../../Titles";
+import { SecondaryParagraph } from "../../../Paragraphs";
+import { IconTextSpecial } from "../../../General";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import Image from "next/image";
-import ownStyles from "./Contact.module.css";
 
 export default function index() {
 	return (
 		<ContainerSection
-			className={ownStyles["container"]}
+			className={ownStyles["Production-container"]}
 			backgroundColor={"#3E2BC5"}
+			id="contact"
 		>
-			<div className={ownStyles["content"]}>
-				<LineTitleTertiary
-					classes={ownStyles["line-title"]}
-					text={"CONTACT"}
+			<div className={ownStyles["container-content"]}>
+				<LineTitleSecondary
+					style={{ textAlign: "center", marginTop: "2rem" }}
+					text={"Contact"}
 				/>
-				<SecondaryTitle
-					style={{ textAlign: "left" }}
-					text={"Get In Touch"}
+
+				<SecondaryTitle text={"Get in Touch"} />
+				<SecondaryParagraph
+					style={{ textAlign: "center" }}
+					content="Any questions? Reach out to us and we’ll get back to you shortly."
 				/>
-				<TertiaryParagraph
-					content={
-						"Any questions? Reach out to us and we’ll get back to you shortly."
-					}
-				/>
-				<a href="" className={ownStyles["contactLink"]}>
-					<IconTextTertiary
+				<div className={ownStyles["container-socialMedia"]}>
+					<IconTextSpecial
 						icon={faEnvelope}
 						text={"contact@novalaunch.art"}
-						className={ownStyles["icon-text-sec"]}
 					/>
-				</a>
-				<a href="" className={ownStyles["contactLink"]}>
-					<IconTextTertiary
+					<IconTextSpecial
 						icon={faDiscord}
 						text={"Join: Nova Launch Discord"}
-						className={ownStyles["icon-text-sec"]}
 					/>
-				</a>
-				<a href="" className={ownStyles["contactLink"]}>
-					<IconTextTertiary
+					<IconTextSpecial
 						icon={faTwitter}
 						text={"Twitter: @nova_launch"}
-						className={ownStyles["icon-text-sec"]}
 					/>
-				</a>
+				</div>
 			</div>
-			<div className={ownStyles["image"]}>
+			<div className={ownStyles["Production-image"]}>
 				<Image
-					width={385}
-					height={201}
+					width={230}
+					height={200}
 					loading="eager"
-					objectFit="contain"
+					objectFit="cover"
 					layout="responsive"
 					src={"/assets/gfx-q.png"}
 				/>
