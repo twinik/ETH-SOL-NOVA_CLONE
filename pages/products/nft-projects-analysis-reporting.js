@@ -1,8 +1,8 @@
 import React from "react";
 import {
   Intro,
-  Mint,
-  Composable,
+  DataToEmpower,
+  HolderAnalytics,
   OperateSystem,
   Contact,
 } from "../../components/Products/NftAnalysis";
@@ -10,8 +10,8 @@ import {
 const Page = () => (
   <div>
     <Intro />
-    <Mint />
-    <Composable />
+    <DataToEmpower />
+    <HolderAnalytics />
     <OperateSystem />
     <Contact />
     <style jsx global>{`

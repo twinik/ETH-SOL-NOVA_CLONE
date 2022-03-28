@@ -3,7 +3,7 @@ import ownStyles from "./Intro.module.css";
 import { ContainerSection } from "../../../Containers";
 import { SecondaryTitle } from "../../../Titles";
 import { MainParagraphWithIcon } from "../../../Paragraphs/MainParagraph";
-import { ButtonRoundedTertiary } from "../../../Buttons";
+import { ButtonRoundedYellow } from "../../../Buttons";
 import Image from "next/image";
 export default function index() {
   return (
@@ -18,14 +18,14 @@ export default function index() {
           text={"Bot-Proof Minting"}
         />
         <MainParagraphWithIcon
-          style={{ textAlign: "center", color: "#fff" }}
+          style={{ color: "#fff" }}
           content1={
             "Ensure that your NFT mint does not get botted. Advanced bot-protection, whitelisting, gating & more."
           }
         />
 
         <MainParagraphWithIcon
-          style={{ textAlign: "center", color: "#fff" }}
+          style={{ color: "#fff" }}
           content1={
             "Powered by Nova Launch - the Premier Platform for NFT projects on the"
           }
@@ -35,7 +35,7 @@ export default function index() {
           content2={` Solana network.`}
         />
 
-        <ButtonRoundedTertiary text={"Mint with nova launch"} />
+        <ButtonRoundedYellow text={"Mint with nova launch"} />
       </div>
       <div className={ownStyles["image"]}>
         <Image

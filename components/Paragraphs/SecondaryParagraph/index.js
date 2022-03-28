@@ -8,9 +8,12 @@ export default function index({ content, style }) {
   );
 }
 
-export function para2({ content, style }) {
+export function para2({ content, style, colorClass }) {
   return (
-    <p className={`${ownStyles["SecondaryParagraph"]} ${ownStyles["terParagraph"]}`} style={{ ...style }}>
+    <p
+      className={`${ownStyles["SecondaryParagraph"]} ${ownStyles["terParagraph"]} ${ownStyles[colorClass]}`}
+      style={{ ...style }}
+    >
       {content}
     </p>
   );

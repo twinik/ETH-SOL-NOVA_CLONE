@@ -1,5 +1,5 @@
 import React from "react";
-import ownStyles from "./Rarity.module.css";
+import ownStyles from "./PreMint.module.css";
 import { ContainerSection } from "../../../Containers";
 import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
@@ -13,19 +13,13 @@ export default function index() {
       backgroundColor={"#000d4d"}
     >
       <div className={ownStyles["content"]}>
-        <LineTitleTertiary
-          classes={ownStyles["line-title"]}
-          text={"PRE-MINT REGISTRATION"}
-        />
-        <SecondaryTitle
-          style={{ textAlign: "left" }}
-          text={"Authenticate your Mint"}
-        />
+        <LineTitle text={"PRE-MINT REGISTRATION"} />
+        <SecondaryTitle text={"Authenticate your Mint"} />
         <TertiaryParagraph
           content={
-            "Easily pre-register your community for an upcoming mint throuhg Discord (and more social communities coming soon)."
+            "Easily pre-register your community for an upcoming mint through Discord (and more social communities coming soon)."
           }
-          style={{ color: "#fff" }}
+          colorClass={"blanco"}
         />
         <IconTextTertiary
           icon={faCirclePlay}

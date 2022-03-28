@@ -1,7 +1,7 @@
 import React from "react";
-import ownStyles from "./Mint.module.css";
+import ownStyles from "./Flexible.module.css";
 import { ContainerSection } from "../../../Containers";
-import { SecondaryTitle, LineTitleTertiary } from "../../../Titles";
+import { SecondaryTitle, LineTitle } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
 import { IconText2 } from "../../../General";
 import Image from "next/image";
@@ -26,19 +26,19 @@ export default function index() {
         />
       </div>
       <div className={ownStyles["content"]}>
-        <LineTitleTertiary
-          classes={ownStyles["line-title"]}
+        <LineTitle
+          colorClass={"azul"}
           text={"NOVA PASS AUTOMATED ROLES ENGINE"}
         />
         <SecondaryTitle text={"Flexible & Easy to Setup"} />
         <TertiaryParagraph
-          style={{ color: "#d2d3ff" }}
+          colorClass={"violetaClaro"}
           content={
             "Connect our Discord bot & get setup with Nova Pass to verify Holders of your NFTs easily & seamlessly."
           }
         />
         <TertiaryParagraph
-          style={{ color: "#d2d3ff" }}
+          colorClass={"violetaClaro"}
           content={
             "Featuring many different ways to authenticate & multiple role assignment."
           }

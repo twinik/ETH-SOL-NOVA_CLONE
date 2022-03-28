@@ -1,5 +1,5 @@
 import React from "react";
-import ownStyles from "./Composable.module.css";
+import ownStyles from "./VerifiedDiscord.module.css";
 import { ContainerSection } from "../../../Containers";
 import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
@@ -10,32 +10,30 @@ export default function index() {
   return (
     <ContainerSection
       className={ownStyles["container"]}
-      backgroundColor={"#0b0c22"}
+      backgroundColor={"#0a1992"}
     >
       <div className={ownStyles["image"]}>
         <Image
-          width={2760}
-          height={1416}
+          width={800}
+          height={400}
           loading="eager"
           objectFit="cover"
           layout="responsive"
-          src={"/assets/nft-analysis/nova-nft-holders.png"}
+          src={"/assets/nova-pass-verification/novapass-feature-logo.png"}
         />
       </div>
       <div className={ownStyles["content"]}>
-        <LineTitleTertiary
-          classes={ownStyles["line-title"]}
-          text={"HELP YOUR NFTS SUCCEED"}
-        />
-        <SecondaryTitle
-          style={{ textAlign: "left" }}
-          text={"Holder Analytics & More"}
-        />
+        <LineTitle text={"VERIFIED DISCORD TO SOLANA WALLET"} />
+        <SecondaryTitle text={"Authenticated Discord Wallets"} />
         <TertiaryParagraph
           content={
-            "Segmented & exportable data about your NFT holders, marketplace sales, mints, & more."
+            "Privacy focused but verifiable Discord to Solana Wallet connections. Discord users can link a Solana wallet in under 5 seconds & be eligible for special roles & more."
           }
-          style={{ color: "#fff" }}
+          colorClass={"violetaClaro"}
+        />
+        <TertiaryParagraph
+          content={"Continuously role syncing - even if NFTs change hands."}
+          colorClass={"violetaClaro"}
         />
       </div>
     </ContainerSection>

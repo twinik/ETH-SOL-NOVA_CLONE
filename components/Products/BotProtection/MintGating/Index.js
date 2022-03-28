@@ -1,5 +1,5 @@
 import React from "react";
-import ownStyles from "./Composable.module.css";
+import ownStyles from "./MintGating.module.css";
 import { ContainerSection } from "../../../Containers";
 import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
@@ -23,16 +23,13 @@ export default function index() {
         />
       </div>
       <div className={ownStyles["content"]}>
-        <LineTitleTertiary
-          classes={ownStyles["line-title"]}
-          text={"MANY WAYS TO GATE YOUR MINT"}
-        />
-        <SecondaryTitle style={{ textAlign: "left" }} text={"Mint Gating"} />
+        <LineTitle text={"MANY WAYS TO GATE YOUR MINT"} />
+        <SecondaryTitle text={"Mint Gating"} />
         <TertiaryParagraph
           content={
             "Nova Launch offers many ways to protect your mint, from Discord role & guild authentication, limited to NFT holders, password, & many more. Easily setup a mint gate through our platform."
           }
-          style={{ color: "#fff" }}
+          colorClass={"blanco"}
         />
       </div>
     </ContainerSection>

@@ -18,7 +18,7 @@ export default function index() {
           text={"Know what's happening with your NFT Project"}
         />
         <MainParagraphWithIcon
-          style={{ textAlign: "center", color: "#af9cff" }}
+          style={{ color: "#af9cff" }}
           content1={
             "Actionable insights on transactions for your NFT project. Powered by Nova Launch - the Premier Platform for NFT projects on the"
           }

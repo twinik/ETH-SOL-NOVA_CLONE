@@ -14,6 +14,14 @@
   color: #af9cff;
 }
 
+/* COLORES */
+.blanco {
+  color: #fff;
+}
+.violetaClaro {
+  color: #d2d3ff;
+}
+
 @media screen and (min-width: 768px) {
   .MainParagraph {
     font-size: 1.1em;

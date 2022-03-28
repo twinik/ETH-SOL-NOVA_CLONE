@@ -1,5 +1,5 @@
 import React from "react";
-import ownStyles from "./Mint.module.css";
+import ownStyles from "./DataToEmpower.module.css";
 import { ContainerSection } from "../../../Containers";
 import { LineTitle, SecondaryTitle, LineTitleTertiary } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
@@ -10,41 +10,38 @@ export default function index() {
   return (
     <ContainerSection
       className={ownStyles["container"]}
-      backgroundColor={"#2b4aed"}
+      backgroundColor={"#10122d"}
     >
       <div className={ownStyles["content"]}>
-        <LineTitleTertiary
-          classes={ownStyles["line-title"]}
-          text={"NOT BOTS ALLOWED"}
-        />
+        <LineTitle text={"DATA TO EMPOWER YOUR NFT PROJECT"} />
         <SecondaryTitle
           style={{ textAlign: "left" }}
-          text={"On-Chain Bot Protection"}
-        />
-        <TertiaryParagraph
-          content={"Only allow your users & community to mint your NFT launch."}
-          style={{ color: "#fff" }}
+          text={"Actionable Insights"}
         />
         <TertiaryParagraph
           content={
-            "100% Bot-proof - completely on chain through our smart-contract, requiring the exchange of a whitelist token + SOL in order to execute a mint."
+            "Identify key opportunities, your community insights, and more."
           }
-          style={{ color: "#fff" }}
+          style={{ color: "#a2b4d2" }}
+        />
+        <TertiaryParagraph
+          content={"Plus expert advice & guidance from our seasoned team."}
+          style={{ color: "#a2b4d2" }}
         />
         <IconTextTertiary
           icon={faCirclePlay}
-          text={"Protecting Popular NFT Projects"}
+          text={"Learn about Nova Launch"}
           className={ownStyles["icon-text-sec"]}
         />
       </div>
       <div className={ownStyles["image"]}>
         <Image
-          width={457}
-          height={653}
+          width={2760}
+          height={1416}
           loading="eager"
           objectFit="contain"
           layout="responsive"
-          src={"/assets/BotProtection/nova-bot-protection.png"}
+          src={"/assets/nft-analysis/nova-nft-reports.png"}
         />
       </div>
     </ContainerSection>
