@@ -11,7 +11,7 @@
 .content > * {
   margin-top: 1rem;
   margin-bottom: 0 !important;
-  text-align: left!important;
+  text-align: left !important;
 }
 
 .image {
@@ -25,7 +25,7 @@
     grid-gap: 2rem;
   }
   .container-intro > * {
-   flex: 1;
+    flex: 1;
   }
   .image {
     flex: 1.46;
@@ -72,7 +72,7 @@
     margin-left: 10rem !important;
     max-width: 100% !important;
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
   }
   .content {
     display: flex;
@@ -93,13 +93,15 @@
   }
 }
 
-@media screen and (min-width:1600px) {
-    .container-intro{
-        padding-left: 15.3rem!important;
-        padding-top:7rem!important;
-    }
-    .content {
-        
-        flex: 0.3;
-      }
+@media screen and (min-width: 1600px) {
+  .container-intro {
+    padding-left: 15.3rem !important;
+    padding-top: 7rem !important;
+  }
+  .content {
+    flex: 0.3;
+  }
+  .image {
+    max-height: 650px;
+  }
 }
