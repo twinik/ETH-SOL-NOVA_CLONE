@@ -66,7 +66,7 @@ export default function mobile({ style, logo, width }) {
             >
               <ButtonRounded text="Launch your nft mint" />
               <div style={{ paddingTop: "2.2rem", width: "90%" }}>
-                {ProductsOptions.map(({ title, description, icon }, index) => (
+                {ProductsOptions.map(({ title, description, icon,link }, index) => (
                   <ItemNavbarProduct
                     key={title}
                     title={title}
@@ -79,6 +79,8 @@ export default function mobile({ style, logo, width }) {
                         ? { border: "none", paddingBottom: 0 }
                         : {}
                     }
+                    link={link}
+                    setOpen={setOpen}
                   />
                 ))}
               </div>

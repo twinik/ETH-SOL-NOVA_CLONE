@@ -7,13 +7,17 @@ export default function ItemNavbarProduct({
 	description,
 	icon,
 	style,
-	link
+	link,
+	setOpen=()=>{},
 }) {
 	return (
 		<Link href={link || ""} replace>
 		<div
 		  className={styles["ItemNavbarProduct-container"]}
 		  style={style ? style : {}}
+		  onClick={() => {
+			setOpen(!open);
+		  }}
 		>
 		  <FontAwesomeIcon
 			icon={icon}

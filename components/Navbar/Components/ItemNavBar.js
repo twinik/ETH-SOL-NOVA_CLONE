@@ -16,7 +16,7 @@ export default function ItemNavBar({
         ...style,
       }}
     >
-      <Link href={index !== 0 ? to : ""}>
+      <Link href={index !== 0 ? to : ""} replace>
         <h4
           onClick={() => {
             setOpen(false);

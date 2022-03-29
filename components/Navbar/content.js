@@ -54,10 +54,10 @@ export const ProductsOptions = [
 ];
 
 export const OptionsMenu = [
-	{ label: "Why Nova", to: "#why-nova" },
-	{ label: "Minting", to: "#minting" },
-	{ label: "Pricing", to: "#pricing" },
-	{ label: "Projects", to: "#projects" },
-	{ label: "FAQ", to: "#faq" },
-	{ label: "Contact", to: "#contact" }
+	{ label: "Why Nova", to: "/#why-nova" },
+	{ label: "Minting", to: "/#minting" },
+	{ label: "Pricing", to: "/#pricing" },
+	{ label: "Projects", to: "/#projects" },
+	{ label: "FAQ", to: "/#faq" },
+	{ label: "Contact", to: "/#contact" }
 ];
