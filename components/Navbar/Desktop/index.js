@@ -12,19 +12,28 @@ export default function mobile({ style, logo, width }) {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
   return (
     <div className={style["nav-container"]}>
-      <div style={{ width: 250 }}>
-        <Image src={logo} alt="Nova Launch Logo" layout="responsive" />
+      <div style={{ width: 250, cursor: "pointer" }}>
+        <Link href={"/"} replace>
+          <Image src={logo} alt="Nova Launch Logo" layout="responsive" />
+        </Link>
       </div>
 
       <div className={ownStyles["nav-links-container"]}>
         {OptionsMenu.map(({ label, to }, index) =>
           index == 0 ? (
-            <span onClick={()=>scrollToTop()} className={ownStyles["nav-link"]}>{label}</span>
+            <Link href={"/"}>
+              <span
+                onClick={() => scrollToTop()}
+                className={ownStyles["nav-link"]}
+              >
+                {label}
+              </span>
+            </Link>
           ) : (
             <Link href={to}>
               <span className={ownStyles["nav-link"]}>{label}</span>
