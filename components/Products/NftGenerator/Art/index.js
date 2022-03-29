@@ -27,11 +27,13 @@ export default function index() {
 					text={"Your Art is Everything"}
 				/>
 				<TertiaryParagraph
+					style={{ color: "#ffffff", fontSize: "16px" }}
 					content={
 						"Complete control over your NFT collection, before, during, and after minting."
 					}
 				/>
 				<TertiaryParagraph
+					style={{ color: "#b9d2f4" }}
 					content={"Fine tune your collection's rarity & more."}
 				/>
 			</div>

@@ -36,7 +36,14 @@ export function iconText2({ text, style, className }) {
 	);
 }
 
-export function iconText3({ text, style, className, icon }) {
+export function iconText3({
+	text,
+	style,
+	className,
+	icon,
+	textStyle,
+	iconStyle
+}) {
 	return (
 		<div
 			className={`${className} ${ownStyles["container"]} `}
@@ -44,11 +51,13 @@ export function iconText3({ text, style, className, icon }) {
 		>
 			<div
 				className={`${ownStyles["icon"]} ${ownStyles["icon-secondary"]}`}
+				style={{ ...iconStyle }}
 			>
 				<FontAwesomeIcon icon={icon} />
 			</div>
 			<span
 				className={`${ownStyles["text"]} ${ownStyles["text-secondary"]}`}
+				style={{ ...textStyle }}
 			>
 				{text}
 			</span>

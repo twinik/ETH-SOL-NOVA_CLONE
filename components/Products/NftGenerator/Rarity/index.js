@@ -30,6 +30,7 @@ export default function index() {
 					text={"Rarity is Key"}
 				/>
 				<TertiaryParagraph
+					style={{ color: "#8ca2e5" }}
 					content={
 						"By the time your community is minting, it's too late. Rest easy with our rarity calculations before uploading."
 					}
@@ -38,11 +39,15 @@ export default function index() {
 					icon={faCheck}
 					text={"No Duplicates - Ever"}
 					className={ownStyles["icon-text-sec"]}
+					textStyle={{ color: "#b9d2f4" }}
+					iconStyle={{ backgroundColor: "#169ef9" }}
 				/>
 				<IconTextTertiary
 					icon={faCheck}
 					text={"Automatically Checks for Errors"}
 					className={ownStyles["icon-text-sec"]}
+					textStyle={{ color: "#b9d2f4" }}
+					iconStyle={{ backgroundColor: "#169ef9" }}
 				/>
 			</div>
 		</ContainerSection>

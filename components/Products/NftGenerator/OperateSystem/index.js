@@ -15,6 +15,7 @@ export default function index() {
 				<LineTitle text={"THE COMPLETE NFT OPERATING SYSTEM"} />
 				<SecondaryTitle text={"Full Service Minting"} />
 				<SecondaryParagraph
+					style={{ color: "#8ca2e5" }}
 					content={
 						"The Nova Team combines a passion for art, NFTs, industry expertise & proven \nrecord in helping successful NFT partners to make your NFT launch a reality."
 					}

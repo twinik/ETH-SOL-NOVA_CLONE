@@ -5,6 +5,8 @@ import { SecondaryTitle } from "../../../Titles";
 import { MainParagraphWithIcon } from "../../../Paragraphs/MainParagraph";
 import { ButtonRoundedTertiary } from "../../../Buttons";
 import Image from "next/image";
+import Link from "next/link";
+
 export default function index() {
 	return (
 		<ContainerSection
@@ -18,7 +20,7 @@ export default function index() {
 					text={"Generate a Flawless \n NFT Collection"}
 				/>
 				<MainParagraphWithIcon
-					style={{ textAlign: "center", color: "#af9cff" }}
+					style={{ textAlign: "center", color: "#b9d2f4" }}
 					content1={`Nova Launch - the Premier Launchpad for Solana NFT projects - trusted partner in high volume, best-in-class NFT live minting on the`}
 					icon={
 						<Image
@@ -29,10 +31,15 @@ export default function index() {
 					}
 					content2={` Solana network.`}
 				/>
-				<ButtonRoundedTertiary text={"Apply for Nova Launch Quote"} />
-				<a href="#projects" className={ownStyles["seeProjectsLink"]}>
-					See some recent NFT launches
-				</a>
+				<ButtonRoundedTertiary
+					text={"Apply for Nova Launch Quote"}
+					className={ownStyles["button"]}
+				/>
+				<Link href="#projects">
+					<span className={ownStyles["seeProjectsLink"]}>
+						See some recent NFT launches
+					</span>
+				</Link>
 			</div>
 			<div className={ownStyles["image"]}>
 				<Image

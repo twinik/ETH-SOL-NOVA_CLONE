@@ -29,13 +29,13 @@ export default function index() {
 				/>
 				<SecondaryTitle text={"Fine Tuned Rarity Rankings"} />
 				<TertiaryParagraph
-					style={{ textAlign: "center" }}
+					style={{ textAlign: "center", color: "#fff" }}
 					content={
 						"Our statistically accurate rarity ranking calculations."
 					}
 				/>
 				<TertiaryParagraph
-					style={{ textAlign: "center" }}
+					style={{ textAlign: "center", color: "#fff" }}
 					content={
 						"With options to customize & fine tune the attributes & layers that matter most."
 					}

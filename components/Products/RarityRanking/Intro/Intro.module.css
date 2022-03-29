@@ -36,6 +36,7 @@
 
 .seeProjectsLink:hover {
 	background-color: #0056ce;
+	cursor: pointer;
 	transition: 1s;
 }
 

@@ -23,7 +23,7 @@ export default function index() {
 
 				<SecondaryTitle text={"Get in Touch"} />
 				<SecondaryParagraph
-					style={{ textAlign: "center" }}
+					style={{ textAlign: "center", color: "#6a7894" }}
 					content="Any questions? Reach out to us and we’ll get back to you shortly."
 				/>
 				<div className={ownStyles["container-socialMedia"]}>

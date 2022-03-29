@@ -27,11 +27,13 @@ export default function index() {
 					text={"Rarity is Everything"}
 				/>
 				<TertiaryParagraph
+					style={{ color: "#fff", fontSize: "1.1rem" }}
 					content={
 						"Not all NFTs are created equal. Enable communities to gauge rareness and trade, encouraging higher volume & interest in your NFTs."
 					}
 				/>
 				<TertiaryParagraph
+					style={{ color: "#fff", fontSize: "1rem" }}
 					content={"Fine tune your collection's rarity & more."}
 				/>
 			</div>

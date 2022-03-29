@@ -18,6 +18,10 @@
 	margin-bottom: 0 !important;
 }
 
+.button {
+	background: linear-gradient(51deg, #fd915a 0%, #6048e6 99%) !important;
+}
+
 .image {
 	margin-top: 2rem;
 	width: 100%;
@@ -36,6 +40,7 @@
 
 .seeProjectsLink:hover {
 	background-color: #0056ce;
+	cursor: pointer;
 	transition: 1s;
 }
 

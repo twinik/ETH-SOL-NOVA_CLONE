@@ -26,13 +26,13 @@ export default function index() {
 				<LineTitle text={"NOVA LAUNCH RULE ENGINE"} />
 				<SecondaryTitle text={"Our Advanced Rule Layering Engine"} />
 				<TertiaryParagraph
-					style={{ textAlign: "center" }}
+					style={{ textAlign: "center", color: "#b9d2f4" }}
 					content={
 						"Art layering is for complex sets, and no one-size fits all."
 					}
 				/>
 				<TertiaryParagraph
-					style={{ textAlign: "center" }}
+					style={{ textAlign: "center", color: "#b9d2f4" }}
 					content={
 						"Unlimited possibilites with a powerful rules engine to precisely & randomly generate your art collection."
 					}

@@ -5,6 +5,8 @@ import { SecondaryTitle } from "../../../Titles";
 import { MainParagraphWithIcon } from "../../../Paragraphs/MainParagraph";
 import { ButtonRoundedTertiary } from "../../../Buttons";
 import Image from "next/image";
+import Link from "next/link";
+
 export default function index() {
 	return (
 		<ContainerSection
@@ -18,7 +20,7 @@ export default function index() {
 					text={"Rarity Rankings\nFor your NFT \nCollection"}
 				/>
 				<MainParagraphWithIcon
-					style={{ textAlign: "center", color: "#af9cff" }}
+					style={{ textAlign: "center", color: "#8284a5" }}
 					content1={
 						"Customizable rarity ranking display of your NFT project, no-code needed. By Nova Launch - the Premier Platform for NFT projects on the"
 					}
@@ -32,9 +34,11 @@ export default function index() {
 					content2={` Solana network.`}
 				/>
 				<ButtonRoundedTertiary text={"See a Demo Ranking"} />
-				<a href="" className={ownStyles["seeProjectsLink"]}>
-					TRY NOVA LAUNCH NOW
-				</a>
+				<Link href="">
+					<span className={ownStyles["seeProjectsLink"]}>
+						TRY NOVA LAUNCH NOW
+					</span>
+				</Link>
 			</div>
 			<div className={ownStyles["image"]}>
 				<Image

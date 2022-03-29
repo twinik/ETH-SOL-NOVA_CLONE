@@ -5,6 +5,8 @@ import { SecondaryTitle } from "../../../Titles";
 import { MainParagraphWithIcon } from "../../../Paragraphs/MainParagraph";
 import { ButtonRoundedTertiary } from "../../../Buttons";
 import Image from "next/image";
+import Link from "next/link";
+
 export default function index() {
 	return (
 		<ContainerSection
@@ -20,7 +22,7 @@ export default function index() {
 					}
 				/>
 				<MainParagraphWithIcon
-					style={{ textAlign: "center", color: "#af9cff" }}
+					style={{ textAlign: "center", color: "#ffffff" }}
 					content1={
 						"Easily setup recent trades & marketplace sales tracking page & Discord or Twitter sales bot. Powered by Nova Launch - the Premier Platform for NFT projects on the"
 					}
@@ -33,10 +35,15 @@ export default function index() {
 					}
 					content2={` Solana network.`}
 				/>
-				<ButtonRoundedTertiary text={"See an Example Sales Page"} />
-				<a href="" className={ownStyles["seeProjectsLink"]}>
-					TRY NOVA LAUNCH NOW - 100% FREE
-				</a>
+				<ButtonRoundedTertiary
+					text={"See an Example Sales Page"}
+					className={ownStyles["button"]}
+				/>
+				<Link href="">
+					<span className={ownStyles["seeProjectsLink"]}>
+						TRY NOVA LAUNCH NOW - 100% FREE
+					</span>
+				</Link>
 			</div>
 			<div className={ownStyles["image"]}>
 				<Image
