@@ -10,6 +10,10 @@
 	color: #5d46e8 !important;
 }
 
+.button {
+	background: linear-gradient(51deg, #6048e6 0%, #fd915a 99%) !important;
+}
+
 .line-title::before {
 	background-color: #5d46e8 !important;
 }

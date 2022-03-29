@@ -42,7 +42,10 @@ export default function index() {
 					justifyContent: "center"
 				}}
 			>
-				<ButtonRoundedTertiary text={"Apply To Mint With Us"} />
+				<ButtonRoundedTertiary
+					text={"Apply To Mint With Us"}
+					className={ownStyles["button"]}
+				/>
 			</div>
 		</ContainerSection>
 	);
