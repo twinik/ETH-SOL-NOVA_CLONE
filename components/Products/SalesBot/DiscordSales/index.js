@@ -24,11 +24,11 @@ export default function index() {
 					}
 				/>
 				<TertiaryParagraph
-					style={{ color: "#f8f8ff" }}
+					colorClass="white"
 					content={"Support for all popular Solana marketplaces."}
 				/>
 				<TertiaryParagraph
-					style={{ color: "#f8f8ff" }}
+					colorClass="white"
 					content={"Options to fine tune your alerts & settings."}
 				/>
 				<IconTextTertiary

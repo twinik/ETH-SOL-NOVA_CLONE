@@ -17,7 +17,7 @@ export default function index() {
 			<div className={ownStyles["content"]}>
 				<SecondaryTitle text={"Empower your NFT Holders"} />
 				<MainParagraphWithIcon
-					style={{ color: "#8ca2e5" }}
+					colorClass="darkerBlue"
 					content1={
 						"Automatically assign Discord roles or access to member's only channels. Reward & recognize your NFT holders. Powered by Nova Launch - the Premier Solana NFT Platform & trusted NFT partner on the"
 					}

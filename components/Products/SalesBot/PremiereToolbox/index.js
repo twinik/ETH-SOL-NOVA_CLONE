@@ -32,7 +32,8 @@ export default function index() {
 					text={"The Premier Toolbox for NFT Projects"}
 				/>
 				<TertiaryParagraph
-					style={{ color: "#f8f8ff", fontSize: "1.1rem" }}
+					style={{ fontSize: "1.1rem" }}
+					colorClass="white"
 					content={
 						"Setup and customize your sales bots and sales page on Nova Launch, the premier launchpad & platform for NFT projects."
 					}

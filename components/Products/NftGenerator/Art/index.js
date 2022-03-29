@@ -27,7 +27,8 @@ export default function index() {
 					text={"Your Art is Everything"}
 				/>
 				<TertiaryParagraph
-					style={{ color: "#ffffff", fontSize: "16px" }}
+					style={{ fontSize: "16px" }}
+					colorClass={"white"}
 					content={
 						"Complete control over your NFT collection, before, during, and after minting."
 					}

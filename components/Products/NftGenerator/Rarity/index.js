@@ -31,6 +31,7 @@ export default function index() {
 				/>
 				<TertiaryParagraph
 					style={{ color: "#8ca2e5" }}
+					colorClass="darkerBlue"
 					content={
 						"By the time your community is minting, it's too late. Rest easy with our rarity calculations before uploading."
 					}

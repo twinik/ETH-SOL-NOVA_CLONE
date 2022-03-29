@@ -18,7 +18,7 @@ export default function index() {
 				/>
 				<SecondaryTitle text={"We are Nova Launch"} />
 				<SecondaryParagraph
-					style={{ color: "#f8f8ff" }}
+					colorClass="white"
 					content={
 						"The Nova Team combines a passion for art, NFTs, industry expertise & proven \nrecord in helping successful NFT partners to make your NFT launch a reality."
 					}

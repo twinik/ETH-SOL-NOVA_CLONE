@@ -20,7 +20,8 @@ export default function index() {
 					text={"Generate a Flawless \n NFT Collection"}
 				/>
 				<MainParagraphWithIcon
-					style={{ textAlign: "center", color: "#b9d2f4" }}
+					style={{ textAlign: "center" }}
+					colorClass="lightBlue"
 					content1={`Nova Launch - the Premier Launchpad for Solana NFT projects - trusted partner in high volume, best-in-class NFT live minting on the`}
 					icon={
 						<Image

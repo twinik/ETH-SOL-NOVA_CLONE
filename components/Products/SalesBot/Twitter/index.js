@@ -23,7 +23,7 @@ export default function index() {
 				/>
 				<TertiaryParagraph
 					content={"Reach your audience on Twitter."}
-					style={{ color: "#f8f8ff" }}
+					colorClass="white"
 				/>
 				<IconTextTertiary
 					icon={faCirclePlay}

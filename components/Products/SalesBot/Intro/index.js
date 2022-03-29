@@ -22,7 +22,8 @@ export default function index() {
 					}
 				/>
 				<MainParagraphWithIcon
-					style={{ textAlign: "center", color: "#ffffff" }}
+					style={{ textAlign: "center" }}
+					colorClass="white"
 					content1={
 						"Easily setup recent trades & marketplace sales tracking page & Discord or Twitter sales bot. Powered by Nova Launch - the Premier Platform for NFT projects on the"
 					}

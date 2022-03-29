@@ -21,6 +21,7 @@ export default function index() {
 				/>
 				<MainParagraphWithIcon
 					style={{ textAlign: "center", color: "#8284a5" }}
+					colorClass="violet"
 					content1={
 						"Customizable rarity ranking display of your NFT project, no-code needed. By Nova Launch - the Premier Platform for NFT projects on the"
 					}
