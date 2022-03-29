@@ -39,7 +39,7 @@ export default function index() {
 					text={"See an Example Sales Page"}
 					className={ownStyles["button"]}
 				/>
-				<Link href="">
+				<Link href="/">
 					<span className={ownStyles["seeProjectsLink"]}>
 						TRY NOVA LAUNCH NOW - 100% FREE
 					</span>

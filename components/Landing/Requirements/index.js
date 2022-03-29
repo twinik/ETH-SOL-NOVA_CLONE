@@ -37,8 +37,8 @@ export default function index() {
 				</div>
 				<div>
 					<h6 className={ownStyles["text-alt"]}>Requirements</h6>
-					<Link href="/">
-						<Link className={ownStyles["btn-pdf"]}>Pdf</Link>
+					<Link href="/" passHref>
+						<a className={ownStyles["btn-pdf"]}>Pdf</a>
 					</Link>
 				</div>
 			</div>

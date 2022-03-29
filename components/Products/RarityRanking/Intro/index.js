@@ -34,7 +34,7 @@ export default function index() {
 					content2={` Solana network.`}
 				/>
 				<ButtonRoundedTertiary text={"See a Demo Ranking"} />
-				<Link href="">
+				<Link href="/">
 					<span className={ownStyles["seeProjectsLink"]}>
 						TRY NOVA LAUNCH NOW
 					</span>
