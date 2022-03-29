@@ -13,11 +13,11 @@
 }
 
 .LineSecond {
-  color: #866bfe!important;
-  font-size: 0.7em!important;
+  color: #866bfe;
+  font-size: 0.7em !important;
 }
 .LineSecond:before {
-  background-color: #866bfe!important;
+  background-color: #866bfe;
 }
 .LineTitle {
   color: #07bcff;
@@ -48,6 +48,28 @@
   background-color: #07bcff;
 }
 
+/* COLORES */
+.violet {
+  color: #866bfe !important;
+}
+.violet:before {
+  background-color: #866bfe;
+}
+
+.white {
+  color: #fff !important;
+}
+.white:before {
+  background-color: #fff;
+}
+
+.blue {
+  color: #2b56f5 !important;
+}
+.blue:before {
+  background-color: #2b56f5;
+}
+
 @media screen and (min-width: 768px) {
   .MainTitle {
     font-size: 2.5em;
@@ -61,7 +83,7 @@
     text-align: left;
   }
   .LineSecond {
-    font-size: .9em!important;
+    font-size: 0.9em !important;
     text-align: left;
   }
 }

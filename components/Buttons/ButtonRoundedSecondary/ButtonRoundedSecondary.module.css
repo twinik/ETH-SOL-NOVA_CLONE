@@ -30,8 +30,73 @@
   );
 }
 
+.button-rounded-yellow {
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  transition: all 0.5s;
+  background: linear-gradient(to right, #39a9ff 0%, #ffc123 100%);
+  color: white;
+  cursor: pointer;
+}
+
+.button-rounded-yellow:hover {
+  background: linear-gradient(to right, #ffc123 0%, #39a9ff 100%);
+}
+
+.button-rounded-blue-light {
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  transition: all 0.5s;
+  background: linear-gradient(to right, #46bdf4 0%, #2b56f5 100%);
+  color: white;
+  cursor: pointer;
+}
+
+.button-rounded-blue-light:hover {
+  background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
+}
+
+.button-rounded-grey {
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  background-color: #415076;
+  color: white;
+  cursor: pointer;
+}
+
+.button-rounded-grey:hover {
+  background-color: #1d2334;
+}
+
 @media screen and (min-width: 1024px) {
   .button-rounded {
+    padding: 0.8rem 1.9rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+  }
+
+  .button-rounded-yellow {
+    padding: 0.8rem 1.9rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+  }
+
+  .button-rounded-grey {
+    padding: 0.8rem 1.9rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+  }
+
+  .button-rounded-blue-light {
     padding: 0.8rem 1.9rem;
     font-weight: 500;
     letter-spacing: 1.2px;

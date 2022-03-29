@@ -1,7 +1,7 @@
 import React from "react";
 import ownStyles from "./Confidence.module.css";
 import { ContainerSection } from "../../../Containers";
-import { LineTitle, SecondaryTitle, LineTitleSecondary } from "../../../Titles";
+import { LineTitle, SecondaryTitle } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
 import { CheckTextSecondary } from "../../../General";
 
@@ -23,9 +23,10 @@ export default function index() {
         />
       </div>
       <div className={ownStyles["content"]}>
-        <LineTitleSecondary
+        <LineTitle
           style={{ marginTop: "1.5rem" }}
           text={"The trusted minting platform"}
+          colorClass="violet"
         />
         <SecondaryTitle
           style={{ textAlign: "left" }}

@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-top: 1.2rem;
+  grid-gap: 1rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 1rem;
+  color: #e4e1ffd3;
+}
+
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 0.9em;
+  }
+}
