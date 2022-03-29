@@ -52,6 +52,23 @@ export function ButtonRoundedYellow({
   );
 }
 
+export function ButtonRoundedBlueLight({
+  text,
+  style: btnStyle,
+  onClick,
+  className,
+}) {
+  return (
+    <button
+      className={`${className} ${style["button-rounded-blue-light"]}`}
+      style={{ ...btnStyle }}
+      onClick={() => alert("galo")}
+    >
+      {text}
+    </button>
+  );
+}
+
 export function ButtonRoundedGrey({
   text,
   style: btnStyle,

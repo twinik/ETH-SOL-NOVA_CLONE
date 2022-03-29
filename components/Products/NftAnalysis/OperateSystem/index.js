@@ -6,7 +6,7 @@ import {
   SecondaryTitle,
 } from "../../../../components/Titles";
 import { SecondaryParagraph } from "../../../../components/Paragraphs";
-import { ButtonRoundedTertiary } from "../../../../components/Buttons";
+import { ButtonRoundedBlueLight } from "../../../../components/Buttons";
 
 import CardMint from "./Components/CardMint";
 import { Mints } from "./content";
@@ -44,7 +44,7 @@ export default function index() {
           justifyContent: "center",
         }}
       >
-        <ButtonRoundedTertiary text={"Apply To Mint With Us"} />
+        <ButtonRoundedBlueLight text={"Apply To Mint With Us"} />
       </div>
     </ContainerSection>
   );
