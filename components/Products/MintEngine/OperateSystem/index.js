@@ -1,10 +1,7 @@
 import React from "react";
 import ownStyles from "./OperateSystem.module.css";
 import { ContainerSection } from "../../../../components/Containers";
-import {
-  LineTitleSecondary,
-  SecondaryTitle,
-} from "../../../../components/Titles";
+import { LineTitle, SecondaryTitle } from "../../../../components/Titles";
 import { SecondaryParagraph } from "../../../../components/Paragraphs";
 import { ButtonRoundedTertiary } from "../../../../components/Buttons";
 
@@ -15,7 +12,10 @@ export default function index() {
   return (
     <ContainerSection backgroundColor={"#2e186a"}>
       <div className={ownStyles["content"]}>
-        <LineTitleSecondary text={"The Complete NFT Operating System"} />
+        <LineTitle
+          text={"The Complete NFT Operating System"}
+          colorClass="violet"
+        />
         <SecondaryTitle text={"Many ways to mint."} />
         <SecondaryParagraph
           content={
@@ -34,11 +34,14 @@ export default function index() {
           />
         ))}
       </div>
-      <div style={{width:'100%',display:'flex',justifyContent:'center'}}>
-        <ButtonRoundedTertiary
-          
-          text={"Apply to Mint with Us"}
-        />
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <ButtonRoundedTertiary text={"Apply to Mint with Us"} />
       </div>
     </ContainerSection>
   );

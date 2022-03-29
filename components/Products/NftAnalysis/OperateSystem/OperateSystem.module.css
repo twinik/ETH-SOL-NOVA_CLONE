@@ -1,0 +1,33 @@
+.container-minting {
+}
+
+.content > * {
+  text-align: left;
+}
+
+.line-title {
+  font-size: 1rem !important;
+  color: #46bdf4 !important;
+}
+
+.line-title::before {
+  background-color: #46bdf4 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .container-mints {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .content > * {
+    white-space: pre-line;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,129 @@
+.content {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.container-intro {
+	min-height: 91vh;
+}
+
+.content h3 {
+	margin-top: 4rem;
+}
+
+.content > * {
+	margin-top: 2rem;
+	margin-bottom: 0 !important;
+}
+
+.image {
+	margin: auto;
+	margin-top: 2rem;
+	width: 100%;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 1rem;
+}
+
+.seeProjectsLink {
+	margin-top: 2rem;
+	color: #f6fafd;
+	font-size: 0.75rem;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.seeProjectsLink:hover {
+	color: #16a3fe;
+	transition: 1s;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+	.content > * {
+		margin-top: 1rem;
+		margin-bottom: 0 !important;
+	}
+	.content h3 {
+		margin-top: 0;
+	}
+	.image {
+		margin-top: 2rem;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+	.container-intro {
+		display: flex;
+		flex-direction: row;
+		grid-gap: 3rem;
+		overflow: hidden;
+		justify-content: center;
+		align-items: center;
+		margin-right: 0 !important;
+		margin-left: 2rem !important;
+		max-width: 100% !important;
+		padding-top: 0 !important;
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		flex: 1;
+	}
+	.content > * {
+		text-align: left !important;
+	}
+	.image {
+		margin-top: auto;
+		flex: 0.6;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.container-intro {
+		display: flex;
+		flex-direction: row;
+		grid-gap: 0.5rem;
+		margin-right: 0 !important;
+		margin-left: 10rem !important;
+		max-width: 100% !important;
+		width: 100%;
+		overflow: hidden;
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		flex: 0.5;
+	}
+	.content > * {
+		text-align: left !important;
+	}
+	.image {
+		margin: auto;
+		flex: 0.3;
+		margin-left: 0%;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.container-intro {
+		padding-left: 15.3rem !important;
+		padding-top: 7rem !important;
+	}
+	.content {
+		flex: 0.4;
+	}
+
+	.image {
+		flex: 0.3;
+	}
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import ownStyles from "./Composable.module.css";
 import { ContainerSection } from "../../../Containers";
-import { SecondaryTitle, LineTitleSecondary } from "../../../Titles";
+import { SecondaryTitle, LineTitle } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
 import { IconTextSecondary } from "../../../General";
 import Image from "next/image";
@@ -23,7 +23,7 @@ export default function index() {
         />
       </div>
       <div className={ownStyles["content"]}>
-        <LineTitleSecondary text={"COMPOSABLE SMART CONTRACT"} />
+        <LineTitle text={"COMPOSABLE SMART CONTRACT"} colorClass="violet" />
         <SecondaryTitle text={"Setup a Mint, easily."} />
         <TertiaryParagraph
           style={{ textAlign: "center" }}
@@ -37,7 +37,9 @@ export default function index() {
             "A completely seamless experience to launching your NFT project on Solana."
           }
         />
-        <IconTextSecondary text={"A Trusted, Production-Tested Smart Contract"} />
+        <IconTextSecondary
+          text={"A Trusted, Production-Tested Smart Contract"}
+        />
       </div>
     </ContainerSection>
   );

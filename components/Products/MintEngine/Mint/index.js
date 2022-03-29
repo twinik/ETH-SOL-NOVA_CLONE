@@ -1,7 +1,7 @@
 import React from "react";
 import ownStyles from "./Mint.module.css";
 import { ContainerSection } from "../../../Containers";
-import { LineTitle, SecondaryTitle, LineTitleSecondary } from "../../../Titles";
+import { LineTitle, SecondaryTitle } from "../../../Titles";
 import { TertiaryParagraph } from "../../../Paragraphs";
 import Image from "next/dist/client/image";
 export default function index() {
@@ -21,9 +21,10 @@ export default function index() {
         />
       </div>
       <div className={ownStyles["content"]}>
-        <LineTitleSecondary
+        <LineTitle
           style={{ marginTop: "1.5rem" }}
           text={"Mint on the Solana Network"}
+          colorClass="violet"
         />
         <SecondaryTitle
           style={{ textAlign: "left" }}

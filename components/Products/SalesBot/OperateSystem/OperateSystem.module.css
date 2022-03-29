@@ -1,0 +1,37 @@
+.container-minting {
+}
+
+.content > * {
+	text-align: left;
+}
+
+.line-title {
+	font-size: 1rem !important;
+	color: #5d46e8 !important;
+}
+
+.button {
+	background: linear-gradient(51deg, #6048e6 0%, #fd915a 99%) !important;
+}
+
+.line-title::before {
+	background-color: #5d46e8 !important;
+}
+
+@media screen and (min-width: 768px) {
+	.container-mints {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2rem;
+	}
+	.content > * {
+		white-space: pre-line;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.container-buttons {
+		display: flex;
+		justify-content: space-evenly;
+	}
+}
